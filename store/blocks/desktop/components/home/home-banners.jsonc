@@ -1,0 +1,75 @@
+{
+    "flex-layout.row#home__section--one": {
+      "title": "Banners Section",
+      "children": [
+          "flex-layout.col#section__one--tools",
+          "flex-layout.col#section__one--TV",
+          "flex-layout.col#section__one--deskopt",
+          "flex-layout.col#section__one--purified"
+      ],
+      "props": {
+        "blockClass": "home__section--one",
+        "colSizing":"auto"
+      }
+    },
+    "flex-layout.col#section__one--tools": {
+      "children": [
+        "image#home__image--banner-01"
+      ],
+      "props":{
+          "horizontalAlign": "center",
+          "verticalAlign":"middle",
+          "blockClass": "home__section--image-banner"
+      }
+    },
+    "flex-layout.col#section__one--TV":{
+      "children":[
+          "image#home__image--banner-02"
+      ],
+      "props":{
+          "horizontalAlign": "center",
+          "verticalAlign":"middle",
+          "blockClass": "home__section--image-banner"
+      }
+    },
+    "flex-layout.col#section__one--deskopt":{
+      "children":[
+          "image#home__image--banner-03"
+      ],
+      "props":{
+          "horizontalAlign": "center",
+          "verticalAlign":"middle",
+          "blockClass": "home__section--image-banner"
+      }
+    },
+    "flex-layout.col#section__one--purified":{
+      "children":[
+          "image#home__image--banner-04"
+      ],
+      "props":{
+          "horizontalAlign": "center",
+          "verticalAlign":"middle",
+          "blockClass": "home__section--image-banner"
+      }
+    },
+    "image#home__image--banner-01": {
+      "props":{
+          "src":"assets/img/banner_01.png"
+      }
+    },
+    "image#home__image--banner-02": {
+      "props":{
+          "src":"assets/img/banner_02.png"
+      }
+    },
+    "image#home__image--banner-03": {
+      "props":{
+          "src":"assets/img/banner_03.png"
+      }
+    },
+    "image#home__image--banner-04": {
+      "props":{
+          "src":"assets/img/banner_04.png"
+      }
+    }
+  }

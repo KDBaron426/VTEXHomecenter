@@ -1,7 +1,8 @@
 {
   "store.home": { 
     "blocks": [
-      "slider-layout#home__slider--children"
+      "slider-layout#home__slider--children",
+      "flex-layout.row#home__section--one"
     ]
   }
 }

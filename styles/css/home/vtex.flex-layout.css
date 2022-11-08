@@ -1,0 +1,13 @@
+.flexRow--home__section--one{
+    margin-top: 3rem;
+    justify-content: center;
+}
+.flexRowContent--home__section--one{
+    justify-content: center;
+}
+.stretchChildrenWidth{
+    margin-left: 0.8rem;
+}
+.flexColChild--home__section--image-banner{
+    max-width: 300px;
+}
