@@ -7,6 +7,7 @@
   },
   "header-layout.desktop": {
     "children": [
+      "flex-layout.row#desktop--info",
       "sticky-layout#desktop"
     ]
   },
@@ -48,8 +49,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "src": "assets/img/logo.png"
     }
   },
   "header-layout.mobile": {

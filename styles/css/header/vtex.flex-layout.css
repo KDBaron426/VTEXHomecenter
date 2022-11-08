@@ -1,0 +1,15 @@
+.flexRowContent--info-menu{
+  justify-content: center;
+  background-color: rgb(231, 231, 231);
+  height: 30px;
+}
+.flexRowContent--info-menu :global(.vtex-menu-2-x-styledLink) {
+  color: #333 !important;
+  font-size: 0.6rem !important;
+}
+.styledLinkContainer--menu-content{
+  margin-left: 0.5rem !important;
+}
+.menuContainerNav--menu-content-contact{
+  margin-left: 2rem !important;
+}

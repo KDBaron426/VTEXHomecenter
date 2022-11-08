@@ -1,0 +1,198 @@
+{
+    "flex-layout.row#desktop--info": {
+        "title":"desktop-info",
+        "props":{
+            "blockClass":"info-menu",
+            "horizontalAlign":"center",
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch":true,
+            "fullWidth": true
+        },
+        "children":[
+            "vtex.menu@2.x:menu#websites",
+            "vtex.menu@2.x:menu#others"
+        ]
+    },
+    "vtex.menu@2.x:menu#websites":{
+        "title":"menu info",
+        "props":{
+            "blockClass":"menu-content-contact"
+        },
+        "children":[
+            "menu-item#phone",
+            "menu-item#separator",
+            "menu-item#service",
+            "menu-item#separator",
+            "menu-item#shops",
+            "menu-item#separator",
+            "menu-item#lowprice",
+            "menu-item#separator",
+            "menu-item#cmr"
+        ]
+    },
+    "menu-item#separator":{
+        "props": {
+            "id": "menu-item-separator",
+            "blockClass":"menu-content",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "separator",
+              "text": "|"
+            }
+          }
+    },
+    "menu-item#phone":{
+        "props": {
+            "id": "menu-item-phone",
+            "blockClass":"menu-content",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "phone",
+              "text": "Venta Telefónica 01 8000 12 7373"
+            }
+          }
+    },
+    "menu-item#service":{
+        "props": {
+            "id": "menu-item-service",
+            "blockClass":"menu-content",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "service",
+              "text": "Servicio al cliente 320 88 999 33"
+            }
+          }
+    },
+    "menu-item#shops":{
+        "props": {
+            "id": "menu-item-shops",
+            "blockClass":"menu-content",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "shops",
+              "text": "Tiendas"
+            }
+          }
+    },
+    "menu-item#lowprice":{
+        "props": {
+            "id": "menu-item-lowprice",
+            "blockClass":"menu-content",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "lowprice",
+              "text": "Precios bajos siempre"
+            }
+          }
+    },
+    "menu-item#cmr":{
+        "props": {
+            "id": "menu-item-cmr",
+            "blockClass":"menu-content",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "cmr",
+              "text": "Mundo CMR"
+            }
+          }
+    },
+    "vtex.menu@2.x:menu#others":{
+        "title":"menu others",
+        "props":{
+            "blockClass":"menu-content-others"
+        },
+        "children":[
+            "menu-item#falabella",
+            "menu-item#separator",
+            "menu-item#bank",
+            "menu-item#separator",
+            "menu-item#insurance",
+            "menu-item#separator",
+            "menu-item#buy"
+        ]
+    },
+    "menu-item#falabella":{
+        "props": {
+            "id": "menu-item-falabella",
+            "blockClass":"menu-content",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "falabella",
+              "text": "FALABELLA"
+            }
+          }
+    },
+    "menu-item#bank":{
+        "props": {
+            "id": "menu-item-bank",
+            "blockClass":"menu-content",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "bank",
+              "text": "BANCO"
+            }
+          }
+    },
+    "menu-item#insurance":{
+        "props": {
+            "id": "menu-item-insurance",
+            "blockClass":"menu-content",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "insurance",
+              "text": "SEGUROS"
+            }
+          }
+    },
+    "menu-item#buy":{
+        "props": {
+            "id": "menu-item-buy",
+            "blockClass":"menu-content",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "buy",
+              "text": "SEGUIMIENTO DE COMPRA"
+            }
+          }
+    }
+  }
