@@ -1,5 +1,6 @@
 .flexRowContent--info-menu{
   justify-content: center;
+  align-items: center;
   background-color: rgb(231, 231, 231);
   height: 30px;
 }
@@ -7,9 +8,7 @@
   color: #333 !important;
   font-size: 0.6rem !important;
 }
-.styledLinkContainer--menu-content{
-  margin-left: 0.5rem !important;
-}
-.menuContainerNav--menu-content-contact{
-  margin-left: 2rem !important;
+.flexColChild--search-desktop{
+  width: 40rem;
+  margin-left: 1.5rem;
 }
