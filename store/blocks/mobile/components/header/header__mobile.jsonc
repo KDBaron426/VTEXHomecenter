@@ -1,0 +1,88 @@
+{
+  "sticky-layout#1-mobile": {
+    "title": "footer mobile",
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "title": "footer mobile",
+    "children": [
+      "drawer#header__mobile--menu",
+      "flex-layout.row#logo-mobile",
+      "flex-layout.row#search-mobile",
+      "minicart.v2",
+      "login"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#logo-mobile": {
+    "children": ["image#mobile"],
+    "props": {
+      "blockClass": "logo-header-mobile"
+    }
+  },
+  "image#mobile": {
+    "title": "menu mobile logo",
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "src": "assets/img/homencenter_icon.jpg"
+    }
+  },
+
+  "flex-layout.row#search-mobile": {
+    "children": ["search-bar#mobile"]
+  },
+  "search-bar#mobile": {
+    "props": {
+      "blockClass": "search-header-mobile"
+    }
+  },
+  "login": {
+    "props": {
+      "accessCodeTitle": "Acess code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "blockClass": "logo-login"
+    }
+  },
+  "drawer#header__mobile--menu": {
+    "children": ["menu#header__menu"]
+  },
+  "menu#header__menu": {
+    "children": ["menu-item#category", "menu-item#service-mobile"]
+  },
+  "menu-item#category": {
+    "props":{
+      "id":"category-one",
+      "type":"custom",
+      "itemProps":{
+        "type":"external",
+        "href":"https://www.google.com/",
+        "noFollow": true,
+        "tagTitle":"Google",
+        "text":"Google"
+      }
+    }
+  },
+  "menu-item#service-mobile": {
+    "props":{
+      "id":"category-one",
+      "type":"custom",
+      "itemProps":{
+        "type":"external",
+        "href":"https://www.google.com/",
+        "noFollow": true,
+        "tagTitle":"Bing",
+        "text":"Bing"
+      }
+    }
+  }
+}

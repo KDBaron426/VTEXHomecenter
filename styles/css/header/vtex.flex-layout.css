@@ -12,3 +12,18 @@
   width: 40rem;
   margin-left: 1.5rem;
 }
+.flexRowContent--main-header-mobile {
+  display: flex;
+  background-color: white !important;
+  justify-content: center;
+  align-items: center;
+}
+.flexRowContent--logo-header-mobile{
+  width: 35px;
+}
+.flexRow--logo-header-mobile{
+  margin-right: 1rem;
+}
+.flexRowContent--search-header-mobile{
+  border: 0;
+}

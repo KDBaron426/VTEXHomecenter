@@ -19,7 +19,7 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#search-desktop",
       "minicart.v2",
-      "login"
+      "modal-trigger#header__top--login"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -45,13 +45,27 @@
       "blockClass": "search-desktop",
       "verticalAlign": "middle"
     },
-    "children": [
-      "search-bar"
-    ]
+    "children": ["search-bar"]
   },
   "search-bar": {
     "props": {
       "placeholder": "¿Qué estás buscando?"
     }
+  },
+  "modal-trigger#header__top--login":{
+    "children":[
+      "rich-text#header__top--login",
+      "modal-layout#header__top--login"
+    ]
+  },
+  "rich-text#header__top--login":{
+    "props":{
+      "text":"Mi Cuenta"
+    }
+  },
+  "modal-layout#header__top--login":{
+    "children":[
+      "login-content"
+    ]
   }
 }

@@ -1,0 +1,17 @@
+{
+    "header-layout.mobile": {
+      "title": "Mobile header",
+      "props": {
+        "blockclass": "header-mobile"
+      },
+      "children": [
+        "sticky-layout#1-mobile",
+        "image#home__location--mobile"
+      ]
+    },
+    "image#home__location--mobile":{
+        "props":{
+            "src":"assets/img/banner__location--mobile.png"
+        }
+    }
+  }
