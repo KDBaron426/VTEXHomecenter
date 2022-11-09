@@ -27,3 +27,15 @@
 .flexRowContent--search-header-mobile{
   border: 0;
 }
+.flexRow--desktop-middleMenu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+  height: 50px;
+  margin-bottom: 0.5rem;
+}
+.flexRowContent--desktop-middleMenu :global(.vtex-menu-2-x-styledLink) {
+  color: #333 !important;
+  font-size: 0.8rem !important;
+}

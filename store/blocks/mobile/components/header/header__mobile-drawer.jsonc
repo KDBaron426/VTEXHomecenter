@@ -1,43 +1,383 @@
 {
-    "menu#header__menu":{
-        "children": ["menu-item#mobile__home","menu-item#category", "menu-item#service-mobile", "menu-item#inspiration", "menu-item#cmr-mobile", "menu-item#mobile-buy", "menu-item#mobile-contact"],
-        "props":{
-        "orientation":"vertical"
-        }
-    },
-    "menu-item#mobile__home":{
-        "props":{
-            "text":"Home"
-        }
-    },
-    "menu-item#category":{
-        "props":{
-            "text":"Categorías"
-        }
-    }, 
-    "menu-item#service-mobile":{
-        "props":{
-            "text":"Servicios y proyectos"
-        }
-    },
-    "menu-item#inspiration":{
-        "props":{
-            "text":"Proyectos e Inspiración"
-        }
-    },
-    "menu-item#cmr-mobile":{
-        "props":{
-            "text":"CMR Puntos"
-        }
-    },
-    "menu-item#mobile-buy":{
-        "props":{
-            "text":"Venta Telefónica 01 8000 12 7373"
-        }
-    },
-    "menu-item#mobile-contact":{
-        "props":{
-            "text":"Servicio al cliente 320 88 999 33"
-        }
+  "menu#header__menu": {
+    "children": [
+      "menu-item#mobile__home",
+      "menu-item#category",
+      "menu-item#service-mobile",
+      "menu-item#inspiration",
+      "menu-item#cmr-mobile",
+      "menu-item#mobile-buy",
+      "menu-item#mobile-contact"
+    ],
+    "props": {
+      "orientation": "vertical"
     }
+  },
+  "menu-item#mobile__home": {
+    "props": {
+      "text": "Home"
+    }
+  },
+  "menu-item#category": {
+    "props": {
+      "text": "Categorías"
+    },
+    "blocks": ["submenu.accordion#department__one"]
+  },
+  "submenu.accordion#department__one": {
+    "children": ["menu#department__one"]
+  },
+  "menu#department__one": {
+    "children": [
+      "menu-item#category__one",
+      "menu-item#category__two",
+      "menu-item#category__three",
+      "menu-item#category__four",
+      "menu-item#category__five",
+      "menu-item#category__six",
+      "menu-item#category__seven",
+      "menu-item#category__eight",
+      "menu-item#category__nine"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__one": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "construccion",
+        "text": "Construcción y Ferretería"
+      }
+    }
+  },
+  "menu-item#category__two": {
+    "props": {
+      "id": "category-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "pisos-pintura-termianciones",
+        "text": "Pisos, Pintura y Terminaciones"
+      }
+    }
+  },
+  "menu-item#category__three": {
+    "props": {
+      "id": "category-three",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "herramientas-maquinarias",
+        "text": "Herramientas y Maquinarias"
+      }
+    }
+  },
+  "menu-item#category__four": {
+    "props": {
+      "id": "category-four",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "bano-cocina-aseo",
+        "text": "Baño, Cocina y Aseo"
+      }
+    }
+  },
+  "menu-item#category__five": {
+    "props": {
+      "id": "category-five",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "electro-hogar",
+        "text": "Electrohogar, Tecnología y Climatización"
+      }
+    }
+  },
+  "menu-item#category__six": {
+    "props": {
+      "id": "category-six",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "muebles",
+        "text": "Muebles y Organización"
+      }
+    }
+  },
+  "menu-item#category__seven": {
+    "props": {
+      "id": "category-seven",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "decoracion",
+        "text": "Decoración, Menaje e Iluminación"
+      }
+    }
+  },
+  "menu-item#category__eight": {
+    "props": {
+      "id": "category-eight",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "aire-libre",
+        "text": "Aire Libre, Jardín y Mascotas"
+      }
+    }
+  },
+  "menu-item#category__nine": {
+    "props": {
+      "id": "category-nine",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "automoviles",
+        "text": "Automóviles y Carcenter"
+      }
+    }
+  },
+  "menu-item#service-mobile": {
+    "props": {
+      "text": "Servicios y proyectos"
+    },
+    "blocks": ["submenu.accordion#department__two"]
+  },
+  "submenu.accordion#department__two": {
+    "children": ["menu#department__two"]
+  },
+  "menu#department__two": {
+    "children": [
+      "menu-item#category-two__one",
+      "menu-item#category-two__two",
+      "menu-item#category-two__three",
+      "menu-item#category-two__four",
+      "menu-item#category-two__five",
+      "menu-item#category-two__six",
+      "menu-item#category-two__seven",
+      "menu-item#category-two__eight"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category-two__one": {
+    "props": {
+      "id": "category-two-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "service-bathroom",
+        "text": "Servicios para Baños"
+      }
+    }
+  },
+  "menu-item#category-two__two": {
+    "props": {
+      "id": "category-two-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "service-kitchen",
+        "text": "Servicios para Cocinas"
+      }
+    }
+  },
+  "menu-item#category-two__three": {
+    "props": {
+      "id": "category-two-three",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "service-electro",
+        "text": "Servicios Electrodomésticos"
+      }
+    }
+  },
+  "menu-item#category-two__four": {
+    "props": {
+      "id": "category-two-four",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "service-floor-walls",
+        "text": "Servicios Pisos y Paredes"
+      }
+    }
+  },
+  "menu-item#category-two__five": {
+    "props": {
+      "id": "category-two-five",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "service-doors-security",
+        "text": "Servicios Puertas y Seguridad"
+      }
+    }
+  },
+  "menu-item#category-two__six": {
+    "props": {
+      "id": "category-two-six",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "service-home-garden",
+        "text": "Servicios Hogar y Jardín"
+      }
+    }
+  },
+  "menu-item#category-two__seven": {
+    "props": {
+      "id": "category-two-seven",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "service-project",
+        "text": "Servicios Proyecto a Medida"
+      }
+    }
+  },
+  "menu-item#category-two__eight": {
+    "props": {
+      "id": "category-two-eight",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "service-tools-repair",
+        "text": "Servicio de alquiler de herramienta y reparación"
+      }
+    }
+  },
+  "menu-item#inspiration": {
+    "props": {
+      "text": "Proyectos e Inspiración"
+    },
+    "blocks": ["submenu.accordion#department__three"]
+  },
+  "submenu.accordion#department__three": {
+    "children": ["menu#department__three"]
+  },
+  "menu#department__three": {
+    "children": [
+      "menu-item#category-three__one",
+      "menu-item#category-three__two",
+      "menu-item#category-three__three",
+      "menu-item#category-three__four",
+      "menu-item#category-three__five",
+      "menu-item#category-three__six"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category-three__one": {
+    "props": {
+      "id": "category-three-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "guide-buy",
+        "text": "GUIAS DE COMPRA"
+      }
+    }
+  },
+  "menu-item#category-three__two": {
+    "props": {
+      "id": "category-three-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "byyourself",
+        "text": "Hágalo Usted Mismo"
+      }
+    }
+  },
+  "menu-item#category-three__three": {
+    "props": {
+      "id": "category-three-three",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "kolor",
+        "text": "Catalogo Kolor"
+      }
+    }
+  },
+  "menu-item#category-three__four": {
+    "props": {
+      "id": "category-three-four",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "pets",
+        "text": "Mascotas"
+      }
+    }
+  },
+  "menu-item#category-three__five": {
+    "props": {
+      "id": "category-three-five",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "inspiration",
+        "text": "Inpírate y Decora"
+      }
+    }
+  },
+  "menu-item#category-three__six": {
+    "props": {
+      "id": "category-three-six",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "club",
+        "text": "Club de Cocina"
+      }
+    }
+  },
+  "menu-item#cmr-mobile": {
+    "props": {
+      "text": "CMR Puntos"
+    }
+  },
+  "menu-item#mobile-buy": {
+    "props": {
+      "text": "Venta Telefónica 01 8000 12 7373"
+    }
+  },
+  "menu-item#mobile-contact": {
+    "props": {
+      "text": "Servicio al cliente 320 88 999 33"
+    }
+  }
 }

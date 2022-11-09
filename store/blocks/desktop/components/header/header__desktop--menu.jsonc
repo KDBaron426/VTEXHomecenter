@@ -1,0 +1,48 @@
+{
+  "flex-layout.row#desktop--menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "desktop-middleMenu"
+    },
+    "children": ["menu#desktop-header__menu"]
+  },
+  "menu#desktop-header__menu": {
+    "children": [
+      "menu-item#desktop__build",
+      "menu-item#desktop__floor",
+      "menu-item#desktop__tools",
+      "menu-item#desktop__bathroom",
+      "menu-item#desktop__electro"
+    ],
+    "props": {
+      "orientation": "horizontal"
+    }
+  },
+  "menu-item#desktop__build": {
+    "props": {
+      "text": "CONSTRUCCIÓN Y FERRETERÍA",
+      "blockClass":"desktop-middleMenu-build"
+    }
+  },
+  "menu-item#desktop__floor": {
+    "props": {
+        "text": "PISOS, PINTURAS Y TERMINACIONES"
+      }
+  },
+  "menu-item#desktop__tools": {
+    "props": {
+        "text": "HERRAMIENTAS Y MAQUINARIAS",
+        "blockClass":"desktop-middleMenu-tools"
+      }
+  },
+  "menu-item#desktop__bathroom": {
+    "props": {
+        "text": "BAÑO, COCINA Y ASEO"
+      }
+  },
+  "menu-item#desktop__electro": {
+    "props": {
+        "text": "ELECTROHOGAR, TECNOLOGÍA Y CLIMATIZACIÓN"
+      }
+  }
+}
