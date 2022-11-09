@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#desktop--location":{
+        "props":{
+            "blockClass":"location-info",
+            "horizontalAlign":"center",
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch":true,
+            "fullWidth": true
+        },
+        "children":[
+            "image#desktop__info--locations"
+        ]
+    },
+    "image#desktop__info--locations":{
+        "props": {
+            "src": "assets/img/banner__location.png"
+          }
+    }
+}
