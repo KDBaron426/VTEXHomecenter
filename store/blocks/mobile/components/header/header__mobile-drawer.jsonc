@@ -1,0 +1,43 @@
+{
+    "menu#header__menu":{
+        "children": ["menu-item#mobile__home","menu-item#category", "menu-item#service-mobile", "menu-item#inspiration", "menu-item#cmr-mobile", "menu-item#mobile-buy", "menu-item#mobile-contact"],
+        "props":{
+        "orientation":"vertical"
+        }
+    },
+    "menu-item#mobile__home":{
+        "props":{
+            "text":"Home"
+        }
+    },
+    "menu-item#category":{
+        "props":{
+            "text":"Categorías"
+        }
+    }, 
+    "menu-item#service-mobile":{
+        "props":{
+            "text":"Servicios y proyectos"
+        }
+    },
+    "menu-item#inspiration":{
+        "props":{
+            "text":"Proyectos e Inspiración"
+        }
+    },
+    "menu-item#cmr-mobile":{
+        "props":{
+            "text":"CMR Puntos"
+        }
+    },
+    "menu-item#mobile-buy":{
+        "props":{
+            "text":"Venta Telefónica 01 8000 12 7373"
+        }
+    },
+    "menu-item#mobile-contact":{
+        "props":{
+            "text":"Servicio al cliente 320 88 999 33"
+        }
+    }
+}
