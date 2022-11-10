@@ -43,3 +43,19 @@
   color: #333 !important;
   font-size: 0.8rem !important;
 }
+.triggerContainer--login-middle{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+.paragraph--my-account{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.wrapper--my-account{
+  margin-top: 2rem;
+}

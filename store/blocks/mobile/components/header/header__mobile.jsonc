@@ -30,7 +30,7 @@
     "title": "menu mobile logo",
     "props": {
       "title": "Logo",
-      "href": "/",
+      "href": "/#",
       "src": "assets/img/homencenter_icon.jpg"
     }
   },

@@ -1,0 +1,32 @@
+.menuItem--drawer-item--isClosed{
+    border-bottom: 0.1rem solid #f5f5f5;
+}
+.styledLinkContent--drawer-item{
+    padding: 1rem;
+}
+.menuItem--drawer-item-open--isClosed{
+    background-color: #f5f5f5;
+    border-bottom: 0.1rem solid #cecece;
+}
+.styledLinkContainer--drawer-item-open{
+    padding: 1rem;
+    background-color: #f5f5f5;
+}
+.menuContainer--menu-content-contact{
+    margin-right: 1rem;
+}
+.menuItem--drawer-item-cmr--isClosed{
+    display: flex;
+    align-items: center;
+}
+.styledLinkContainer--drawer-item-cmr{
+    margin-left: 0.5rem;
+}
+.imageElement--drawer-cmr-image-style{
+    padding-right: 0.2rem;
+}
+.menuItem--drawer-item-open-deparment--isClosed{
+    padding: 1rem 9rem 1rem 1rem;
+    background-color: #f5f5f5;
+    border-bottom: 0.1rem solid #cecece;
+}

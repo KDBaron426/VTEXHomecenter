@@ -10,17 +10,20 @@
       "menu-item#mobile-contact"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"menu-mobile"
     }
   },
   "menu-item#mobile__home": {
     "props": {
-      "text": "Home"
+      "text": "Home",
+      "blockClass":"drawer-item"
     }
   },
   "menu-item#category": {
     "props": {
-      "text": "Categorías"
+      "text": "Categorías",
+      "blockClass":"drawer-item"
     },
     "blocks": ["submenu.accordion#department__one"]
   },
@@ -45,6 +48,7 @@
   },
   "menu-item#category__one": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-one",
       "type": "custom",
       "itemProps": {
@@ -57,6 +61,7 @@
   },
   "menu-item#category__two": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-two",
       "type": "custom",
       "itemProps": {
@@ -69,6 +74,7 @@
   },
   "menu-item#category__three": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-three",
       "type": "custom",
       "itemProps": {
@@ -81,6 +87,7 @@
   },
   "menu-item#category__four": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-four",
       "type": "custom",
       "itemProps": {
@@ -93,6 +100,7 @@
   },
   "menu-item#category__five": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-five",
       "type": "custom",
       "itemProps": {
@@ -105,6 +113,7 @@
   },
   "menu-item#category__six": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-six",
       "type": "custom",
       "itemProps": {
@@ -117,6 +126,7 @@
   },
   "menu-item#category__seven": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-seven",
       "type": "custom",
       "itemProps": {
@@ -129,6 +139,7 @@
   },
   "menu-item#category__eight": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-eight",
       "type": "custom",
       "itemProps": {
@@ -141,6 +152,7 @@
   },
   "menu-item#category__nine": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-nine",
       "type": "custom",
       "itemProps": {
@@ -153,7 +165,8 @@
   },
   "menu-item#service-mobile": {
     "props": {
-      "text": "Servicios y proyectos"
+      "text": "Servicios y proyectos",
+      "blockClass":"drawer-item"
     },
     "blocks": ["submenu.accordion#department__two"]
   },
@@ -177,6 +190,7 @@
   },
   "menu-item#category-two__one": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-two-one",
       "type": "custom",
       "itemProps": {
@@ -189,6 +203,7 @@
   },
   "menu-item#category-two__two": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-two-two",
       "type": "custom",
       "itemProps": {
@@ -201,6 +216,7 @@
   },
   "menu-item#category-two__three": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-two-three",
       "type": "custom",
       "itemProps": {
@@ -213,6 +229,7 @@
   },
   "menu-item#category-two__four": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-two-four",
       "type": "custom",
       "itemProps": {
@@ -225,6 +242,7 @@
   },
   "menu-item#category-two__five": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-two-five",
       "type": "custom",
       "itemProps": {
@@ -237,6 +255,7 @@
   },
   "menu-item#category-two__six": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-two-six",
       "type": "custom",
       "itemProps": {
@@ -249,6 +268,7 @@
   },
   "menu-item#category-two__seven": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-two-seven",
       "type": "custom",
       "itemProps": {
@@ -261,6 +281,7 @@
   },
   "menu-item#category-two__eight": {
     "props": {
+      "blockClass":"drawer-item-open",
       "id": "category-two-eight",
       "type": "custom",
       "itemProps": {
@@ -273,7 +294,8 @@
   },
   "menu-item#inspiration": {
     "props": {
-      "text": "Proyectos e Inspiración"
+      "text": "Proyectos e Inspiración",
+      "blockClass":"drawer-item"
     },
     "blocks": ["submenu.accordion#department__three"]
   },
@@ -295,6 +317,7 @@
   },
   "menu-item#category-three__one": {
     "props": {
+      "blockClass":"drawer-item-open-deparment",
       "id": "category-three-one",
       "type": "custom",
       "itemProps": {
@@ -307,6 +330,7 @@
   },
   "menu-item#category-three__two": {
     "props": {
+      "blockClass":"drawer-item-open-deparment",
       "id": "category-three-two",
       "type": "custom",
       "itemProps": {
@@ -319,6 +343,7 @@
   },
   "menu-item#category-three__three": {
     "props": {
+      "blockClass":"drawer-item-open-deparment",
       "id": "category-three-three",
       "type": "custom",
       "itemProps": {
@@ -331,6 +356,7 @@
   },
   "menu-item#category-three__four": {
     "props": {
+      "blockClass":"drawer-item-open-deparment",
       "id": "category-three-four",
       "type": "custom",
       "itemProps": {
@@ -343,6 +369,7 @@
   },
   "menu-item#category-three__five": {
     "props": {
+      "blockClass":"drawer-item-open-deparment",
       "id": "category-three-five",
       "type": "custom",
       "itemProps": {
@@ -355,6 +382,7 @@
   },
   "menu-item#category-three__six": {
     "props": {
+      "blockClass":"drawer-item-open-deparment",
       "id": "category-three-six",
       "type": "custom",
       "itemProps": {
@@ -367,17 +395,36 @@
   },
   "menu-item#cmr-mobile": {
     "props": {
-      "text": "CMR Puntos"
+      /*"text": "CMR Puntos",*/
+      "blockClass":"drawer-item-cmr"
+    },
+    "children":[
+      "image#mobile__drawer-cmr-image",
+      "rich-text#mobile__drawer--cmr-points"
+    ]
+  },
+  "rich-text#mobile__drawer--cmr-points":{
+    "props":{
+      "text":"CMR Puntos"
+    }
+  },
+  "image#mobile__drawer-cmr-image":{
+    "props":{
+      "width":"5%",
+      "blockClass":"drawer-cmr-image-style",
+      "src":"assets/img/logo-cmr-puntos.png"
     }
   },
   "menu-item#mobile-buy": {
     "props": {
-      "text": "Venta Telefónica 01 8000 12 7373"
+      "text": "Venta Telefónica 01 8000 12 7373",
+      "blockClass":"drawer-item"
     }
   },
   "menu-item#mobile-contact": {
     "props": {
-      "text": "Servicio al cliente 320 88 999 33"
+      "text": "Servicio al cliente 320 88 999 33",
+      "blockClass":"drawer-item"
     }
   }
 }

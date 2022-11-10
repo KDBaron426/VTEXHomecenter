@@ -56,10 +56,14 @@
     "children":[
       "rich-text#header__top--login",
       "modal-layout#header__top--login"
-    ]
+    ],
+    "props":{
+      "blockClass": "login-middle"
+    }
   },
   "rich-text#header__top--login":{
     "props":{
+      "blockClass":"my-account",
       "text":"Mi Cuenta"
     }
   },
