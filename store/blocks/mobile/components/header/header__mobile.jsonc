@@ -55,5 +55,12 @@
   },
   "drawer#header__mobile--menu": {
     "children": ["menu#header__menu"]
+  },
+  "minicart.v2":{
+    "props":{
+      "variation":"drawer",
+      "itemCountMode":"total",
+      "quantityDisplay":"always"
+    }
   }
 }
