@@ -71,5 +71,12 @@
     "children":[
       "login-content"
     ]
+  },
+  "minicart.v2":{
+    "props":{
+      "variation":"drawer",
+      "itemCountMode":"total",
+      "quantityDisplay":"always"
+    }
   }
 }
