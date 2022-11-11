@@ -1,0 +1,60 @@
+.flexRow--home__section--one{
+    margin-top: 3rem;
+    justify-content: center;
+    padding-left: 8.6rem;
+    padding-right: 8.6rem;
+}
+.flexRowContent--home__section--one{
+    justify-content: center;
+}
+.stretchChildrenWidth{
+    margin-left: 0.8rem;
+}
+.flexColChild--home__section--image-banner{
+    max-width: 300px;
+}
+.flexRow--home__section--two{
+    margin-top: 2rem;
+    justify-content: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+.flexColChild--banner-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -1rem;
+}
+.flexCol--banner-two{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.wrapper--home__section--two-banner-title{
+    text-align: center;
+}
+.flexRow--home__section--three{
+    margin-top: 1rem;
+    justify-content: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    margin-bottom: 0.8rem;
+}
+.flexRow--home__section--four{
+    margin-top: 1rem;
+    justify-content: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    margin-bottom: 0.8rem;
+}
+.container--home__section--two-banner-title{
+    color: rgb(32, 125, 232);
+}
+.flexRow--home__section--five{
+    margin-top: 1rem;
+    justify-content: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    margin-bottom: 0.8rem;
+}

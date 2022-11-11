@@ -1,0 +1,184 @@
+{
+  "flex-layout.row#home__section--three": {
+    "title": "Banners second section",
+    "children": [
+      "flex-layout.col#section__two--banner-pisos",
+      "flex-layout.col#section__two--banner-decoracion",
+      "flex-layout.col#section__two--banner-autos",
+      "flex-layout.col#section__two--banner-aseo",
+      "flex-layout.col#section__two--banner-puertas",
+      "flex-layout.col#section__two--banner-navidad"
+    ],
+    "props": {
+      "blockClass": "home__section--three"
+    }
+  },
+  "flex-layout.col#section__two--banner-pisos": {
+    "children": [
+      "image#banner-discount-20",
+      "rich-text#banner-pisos-title",
+      "rich-text#banner-pisos-parrafo"
+    ],
+    "props": {
+      "blockClass": "banner-two"
+    }
+  },
+  "image#banner-discount-20": {
+    "props": {
+      "width": "40%",
+      "src": "assets/img/20.png"
+    }
+  },
+  "rich-text#banner-pisos-title": {
+    "props": {
+      "blockClass":"home__section--two-banner-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Pisos y Pinturas"
+    }
+  },
+  "rich-text#banner-pisos-parrafo": {
+    "props": {
+      "text": "Compra Aquí"
+    }
+  },
+  "flex-layout.col#section__two--banner-decoracion": {
+    "children": [
+      "image#banner-discount-50",
+      "rich-text#banner-decoracion-title",
+      "rich-text#banner-decoracion-parrafo"
+    ],
+    "props": {
+      "blockClass": "banner-two"
+    }
+  },
+  "rich-text#banner-decoracion-title": {
+    "props": {
+      "blockClass":"home__section--two-banner-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Decoración y Vajillas"
+    }
+  },
+  "rich-text#banner-decoracion-parrafo": {
+    "props": {
+      "text": "Ver más"
+    }
+  },
+  "flex-layout.col#section__two--banner-autos": {
+    "children": [
+      "image#banner-discount-35",
+      "rich-text#banner-autos-title",
+      "rich-text#banner-autos-parrafo"
+    ],
+    "props": {
+      "blockClass": "banner-two"
+    }
+  },
+  "image#banner-discount-35": {
+    "props": {
+      "width": "40%",
+      "src": "assets/img/35.png"
+    }
+  },
+  "rich-text#banner-autos-title": {
+    "props": {
+      "blockClass":"home__section--two-banner-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Autos"
+    }
+  },
+  "rich-text#banner-autos-parrafo": {
+    "props": {
+      "text": "Compra ya"
+    }
+  },
+  "flex-layout.col#section__two--banner-aseo": {
+    "children": [
+      "image#banner-discount-40",
+      "rich-text#banner-aseo-title",
+      "rich-text#banner-aseo-parrafo"
+    ],
+    "props": {
+      "blockClass": "banner-two"
+    }
+  },
+  "image#banner-discount-40":{
+    "props":{
+        "width": "40%",
+        "src":"assets/img/40.png"
+    }
+  },
+  "rich-text#banner-aseo-title": {
+    "props": {
+      "blockClass":"home__section--two-banner-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Aseo y Organización"
+    }
+  },
+  "rich-text#banner-aseo-parrafo": {
+    "props": {
+      "text": "Ver más"
+    }
+  },
+  "flex-layout.col#section__two--banner-puertas": {
+    "children": [
+      "image#banner-discount-25",
+      "rich-text#banner-puertas-title",
+      "rich-text#banner-puertas-parrafo"
+    ],
+    "props": {
+      "blockClass": "banner-two"
+    }
+  },
+  "image#banner-discount-25":{
+    "props":{
+        "width": "40%",
+        "src":"assets/img/25.png"
+    }
+  },
+  "rich-text#banner-puertas-title": {
+    "props": {
+      "blockClass":"home__section--two-banner-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Puertas y Construcción"
+    }
+  },
+  "rich-text#banner-puertas-parrafo":{
+    "props":{
+        "text":"Renueva aquí"
+    }
+  },
+  "flex-layout.col#section__two--banner-navidad": {
+    "children": [
+      "image#banner-discount-60",
+      "rich-text#banner-navidad-title",
+      "rich-text#banner-navidad-parrafo"
+    ],
+    "props": {
+      "blockClass": "banner-two"
+    }
+  },
+  "image#banner-discount-60":{
+    "props":{
+        "width": "40%",
+        "src":"assets/img/60.png"
+    }
+  },
+  "rich-text#banner-navidad-title": {
+    "props": {
+      "blockClass":"home__section--two-banner-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Productos de Navidad"
+    }
+  },
+  "rich-text#banner-navidad-parrafo":{
+    "props":{
+        "text":"Desde $4.900"
+    }
+  }
+}

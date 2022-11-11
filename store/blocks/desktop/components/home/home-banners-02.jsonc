@@ -1,0 +1,160 @@
+{
+  "flex-layout.row#home__section--two": {
+    "title": "Banners second section",
+    "children": [
+      "flex-layout.col#section__two--banner-electro",
+      "flex-layout.col#section__two--banner-muebles",
+      "flex-layout.col#section__two--banner-herramientas",
+      "flex-layout.col#section__two--banner-aire",
+      "flex-layout.col#section__two--banner-baños",
+      "flex-layout.col#section__two--banner-productos"
+    ],
+    "props":{
+        "blockClass": "home__section--two"
+    }
+  },
+  "flex-layout.col#section__two--banner-electro": {
+    "children": [
+      "image#banner-discount-45",
+      "rich-text#banner-electro-title",
+      "rich-text#banner-electro-parrafo"
+    ],
+    "props": {
+      "blockClass": "banner-two"
+    }
+  },
+  "image#banner-discount-45": {
+    "props": {
+      "width": "40%",
+      "src": "assets/img/45.png"
+    }
+  },
+  "rich-text#banner-electro-title": {
+    "props": {
+      "blockClass":"home__section--two-banner-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Electro Hogar"
+    }
+  },
+  "rich-text#banner-electro-parrafo": {
+    "props": {
+      "text": "¡Ahorro Imperdibles!"
+    }
+  },
+  "flex-layout.col#section__two--banner-muebles": {
+    "children": [
+      "image#banner-discount-50",
+      "rich-text#banner-muebles-title",
+      "rich-text#banner-muebles-parrafo"
+    ],
+    "props": {
+      "blockClass": "banner-two"
+    }
+  },
+  "image#banner-discount-50": {
+    "props": {
+      "width": "40%",
+      "src": "assets/img/50.png"
+    }
+  },
+  "rich-text#banner-muebles-title": {
+    "props": {
+      "blockClass":"home__section--two-banner-title",
+      "text": "Muebles"
+    }
+  },
+  "rich-text#banner-muebles-parrafo": {
+    "props": {
+      "text": "Ver más"
+    }
+  },
+  "flex-layout.col#section__two--banner-herramientas": {
+    "children": [
+      "image#banner-discount-38",
+      "rich-text#banner-herramientas-title",
+      "rich-text#banner-herramientas-parrafo"
+    ],
+    "props": {
+      "blockClass": "banner-two"
+    }
+  },
+  "image#banner-discount-38": {
+    "props": {
+      "width": "40%",
+      "src": "assets/img/38.png"
+    }
+  },
+  "rich-text#banner-herramientas-title": {
+    "props": {
+      "blockClass":"home__section--two-banner-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Herramientas y Ferretería"
+    }
+  },
+  "rich-text#banner-herramientas-parrafo": {
+    "props": {
+      "text": "Ver todo"
+    }
+  },
+  "flex-layout.col#section__two--banner-aire": {
+    "children": [
+      "image#banner-discount-50",
+      "rich-text#banner-aire-title",
+      "rich-text#banner-aire-parrafo"
+    ],
+    "props": {
+      "blockClass": "banner-two"
+    }
+  },
+  "rich-text#banner-aire-title": {
+    "props": {
+      "blockClass":"home__section--two-banner-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Aire libre, Jardín y Mascotas"
+    }
+  },
+  "rich-text#banner-aire-parrafo": {
+    "props": {
+      "text": "Ver Aquí"
+    }
+  },
+  "flex-layout.col#section__two--banner-baños": {
+    "children": [
+      "image#banner-discount-50",
+      "rich-text#banner-baños-title",
+      "rich-text#banner-herramientas-parrafo"
+    ],
+    "props": {
+      "blockClass": "banner-two"
+    }
+  },
+  "rich-text#banner-baños-title": {
+    "props": {
+      "blockClass":"home__section--two-banner-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Baños y Cocinas"
+    }
+  },
+  "flex-layout.col#section__two--banner-productos": {
+    "children": [
+      "image#banner-discount-50",
+      "rich-text#banner-productos-title",
+      "rich-text#banner-herramientas-parrafo"
+    ],
+    "props": {
+      "blockClass": "banner-two"
+    }
+  },
+  "rich-text#banner-productos-title": {
+    "props": {
+      "blockClass":"home__section--two-banner-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Productos de Tecnología"
+    }
+  }
+}

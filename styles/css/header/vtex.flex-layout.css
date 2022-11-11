@@ -4,9 +4,13 @@
   background-color: rgb(231, 231, 231);
   height: 30px;
 }
+.flexRowContent--main-header{
+  background-color: white;
+}
 .flexRowContent--info-menu :global(.vtex-menu-2-x-styledLink) {
   color: #333 !important;
   font-size: 0.6rem !important;
+  margin: 1rem;
 }
 .flexColChild--search-desktop{
   width: 40rem;
