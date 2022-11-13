@@ -5,6 +5,22 @@
       "sticky-layout#desktop",
       "flex-layout.row#desktop--menu",
       "flex-layout.row#desktop--location"
+      /*"search-result-layout.customQuery#home__search"*/
     ]
   }
+  // "search-result-layout.customQuery#home__search":{
+  //   "props":{
+  //     "querySchema":{
+  //       "skusFilter":"ALL",
+  //       "simulationBehavior":"skip"
+  //     }
+  //   },
+  //   "blocks":[
+  //     "search-result-layout.desktop#home__search--desktop",
+  //     "search-not-found-layout"
+  //   ]
+  // },
+  // "search-not-found-layout":{
+
+  // }
 }

@@ -18,7 +18,7 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#search-desktop",
-      "minicart.v2",
+      "minicart.v2#custom",
       "modal-trigger#header__top--login"
     ]
   },
@@ -71,12 +71,5 @@
     "children":[
       "login-content"
     ]
-  },
-  "minicart.v2":{
-    "props":{
-      "variation":"drawer",
-      "itemCountMode":"total",
-      "quantityDisplay":"always"
-    }
   }
 }
