@@ -1,0 +1,73 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.mobile"]
+  },
+  "footer-layout.mobile": {
+    "children": ["disclosure-layout-group#footer__menu--group"]
+  },
+  "disclosure-layout-group#footer__menu--group": {
+    "children": [
+      "disclosure-layout#pqrs",
+      "disclosure-layout#send-methods",
+      "disclosure-layout#personal-data",
+      "disclosure-layout#phone-sell"
+    ]
+  },
+  "disclosure-layout#pqrs": {
+    "children":[
+      "disclosure-trigger#pqrs",
+      "disclosure-content#pqrs"
+    ]
+  },
+  "disclosure-trigger#pqrs":{
+    "children":[
+      "rich-text#pqrs"
+    ]
+  },
+  "rich-text#pqrs":{
+    "props":{
+      "text":"Te escuchamos / PQRS"
+    }
+  },
+  "disclosure-content#pqrs":{
+    "children":[
+      "menu#pqrs"
+    ]
+  },
+  "menu#pqrs":{
+    "children":[
+      "menu-item#contact-us",
+      "menu-item#write-us"
+    ],
+    "props":{
+      "orientation":"vertical"
+    }
+  },
+  "menu-item#contact-us":{
+    "props":{
+      "id":"menu-contact-us-mobile",
+      "type":"custom",
+      "itemProps":{
+        "type":"internal",
+        "href":"#",
+        "tagTitle":"Escribenos tu recomendacion",
+        "text":"Escribenos tu recomendacion"
+      }
+    }
+  },
+  "menu-item#write-us":{
+    "props":{
+      "id":"menu-write-us-mobile",
+      "type":"custom",
+      "itemProps":{
+        "type":"internal",
+        "href":"#",
+        "tagTitle":"Escribenos por correo",
+        "text":"Escribenos por correo"
+      }
+    }
+  },
+  "disclosure-layout#send-methods": {},
+  "disclosure-layout#personal-data": {},
+  "disclosure-layout#phone-sell": {}
+}
