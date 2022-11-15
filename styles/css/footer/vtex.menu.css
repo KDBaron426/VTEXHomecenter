@@ -1,0 +1,8 @@
+.menuContainerNav--menu-footer-mobile{
+    background-color: white;
+    padding-top: 1rem;
+}
+.styledLinkContent--footer-item-open{
+    padding: 0.6rem 0.6rem 0.6rem 0;
+    border-bottom: 0.1rem solid #e2e2e2;
+}

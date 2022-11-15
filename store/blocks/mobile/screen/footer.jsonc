@@ -1,73 +1,124 @@
 {
-  "footer": {
-    "blocks": ["footer-layout.mobile"]
-  },
   "footer-layout.mobile": {
-    "children": ["disclosure-layout-group#footer__menu--group"]
-  },
-  "disclosure-layout-group#footer__menu--group": {
     "children": [
-      "disclosure-layout#pqrs",
-      "disclosure-layout#send-methods",
-      "disclosure-layout#personal-data",
-      "disclosure-layout#phone-sell"
-    ]
-  },
-  "disclosure-layout#pqrs": {
-    "children":[
-      "disclosure-trigger#pqrs",
-      "disclosure-content#pqrs"
-    ]
-  },
-  "disclosure-trigger#pqrs":{
-    "children":[
-      "rich-text#pqrs"
-    ]
-  },
-  "rich-text#pqrs":{
-    "props":{
-      "text":"Te escuchamos / PQRS"
-    }
-  },
-  "disclosure-content#pqrs":{
-    "children":[
-      "menu#pqrs"
-    ]
-  },
-  "menu#pqrs":{
-    "children":[
-      "menu-item#contact-us",
-      "menu-item#write-us"
+      "menu#footer__menu--group",
+      "flex-layout.row#footer__social",
+      "flex-layout.row#footer__link"
     ],
-    "props":{
-      "orientation":"vertical"
+    "props": {
+      "blockClass": "menu-footer-mobile"
     }
   },
-  "menu-item#contact-us":{
-    "props":{
-      "id":"menu-contact-us-mobile",
-      "type":"custom",
-      "itemProps":{
-        "type":"internal",
-        "href":"#",
-        "tagTitle":"Escribenos tu recomendacion",
-        "text":"Escribenos tu recomendacion"
+  "menu#footer__menu--group": {
+    "children": [
+      "menu-item#footer__menu--pqr",
+      "menu-item#footer__menu--methods",
+      "menu-item#footer__menu--personal",
+      "menu-item#footer__menu--phone"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer-mobile"
+    }
+  },
+  "menu-item#footer__menu--pqr": {
+    "props": {
+      "blockClass": "footer-item-open",
+      "id": "footer",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "pqrs",
+        "text": "Te escuchamos/PQRS"
       }
     }
   },
-  "menu-item#write-us":{
-    "props":{
-      "id":"menu-write-us-mobile",
-      "type":"custom",
-      "itemProps":{
-        "type":"internal",
-        "href":"#",
-        "tagTitle":"Escribenos por correo",
-        "text":"Escribenos por correo"
+  "menu-item#footer__menu--methods": {
+    "props": {
+      "blockClass": "footer-item-open",
+      "id": "footer",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "metodos",
+        "text": "Métodos de Retiro y Envío"
       }
     }
   },
-  "disclosure-layout#send-methods": {},
-  "disclosure-layout#personal-data": {},
-  "disclosure-layout#phone-sell": {}
+  "menu-item#footer__menu--personal": {
+    "props": {
+      "blockClass": "footer-item-open",
+      "id": "footer",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "datos",
+        "text": "Autogestión de Datos personales"
+      }
+    }
+  },
+  "menu-item#footer__menu--phone": {
+    "props": {
+      "blockClass": "footer-item-open",
+      "id": "footer",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "tagTitle": "venta",
+        "text": "Venta telefónica 018000 12 7373"
+      }
+    }
+  },
+  "flex-layout.row#footer__social": {
+    "children": ["flex-layout.col#footer__social"],
+    "props": {
+      "blockClass": "footer-socialNetworks"
+    }
+  },
+  "flex-layout.col#footer__social": {
+    "children": ["social-networks"]
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://www.facebook.com/homecentercolombia/",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://www.instagram.com/homecenter_co/",
+          "name": "Instagram"
+        },
+        { "url": "https://twitter.com/Homecenter_co", "name": "Twitter" },
+        {
+          "url": "https://www.youtube.com/c/homecentercolombia/videos",
+          "name": "Youtube"
+        },
+        {
+          "url": "https://co.pinterest.com/homecentercol/",
+          "name": "Pinterest"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#footer__link": {
+    "children": ["flex-layout.col#footer__link"],
+    "props": {
+      "blockClass": "footer-link-btn"
+    }
+  },
+  "flex-layout.col#footer__link": {
+    "children": ["link#footer__link--btn"]
+  },
+  "link#footer__link--btn": {
+    "props": {
+      "href": "/",
+      "label": "Servicio al cliente",
+      "displayMode": "button"
+    }
+  }
 }

@@ -1,0 +1,13 @@
+.footerLayout--menu-footer-mobile{
+    background-color: white;
+}
+.flexRow--footer-link-btn{
+    display: flex;
+    background-color: white;
+}
+.flexRow--footer-socialNetworks{
+    display: flex;
+    margin-top: 1.3rem;
+    margin-bottom: 0.5rem;
+    background-color: white;
+}
