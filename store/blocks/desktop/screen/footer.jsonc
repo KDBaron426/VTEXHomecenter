@@ -1,0 +1,17 @@
+{
+    "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer__desktop"
+    ]
+  },
+  "flex-layout.row#footer__desktop": { 
+    "children": [
+      "rich-text#footer__text"
+    ]
+  },
+  "rich-text#footer__text":{
+    "props":{
+      "text":"soy un footer"
+    }
+  }
+}

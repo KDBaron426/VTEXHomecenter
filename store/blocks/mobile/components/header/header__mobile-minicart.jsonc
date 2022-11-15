@@ -1,0 +1,30 @@
+{
+    "product-list-content-mobile":{
+        "children":[
+            "flex-layout.row#minicart__row--mobile"
+        ]
+    },
+    "flex-layout.row#minicart__row--mobile":{
+        "children":[
+            "flex-layout.col#minicart__col--image",
+            "flex-layout.col#minicart__col--info"
+        ]
+    },
+    "flex-layout.col#minicart__col--image":{
+        "children":[
+            "product-list-image"
+        ]
+    },
+    "flex-layout.col#minicart__col--info":{
+        "children":[
+            "vtex.product-list:product-name",
+            "quantity-selector#minicart",
+            "price"
+        ]
+    },
+    "quantity-selector#minicart":{
+        "props":{
+            "mode":"stepper"
+        }
+    }
+}
