@@ -1,0 +1,31 @@
+{
+    "flex-layout.row#footer__copyright":{
+        "children":[
+            "flex-layout.col#footer__copyright"
+        ],
+        "props":{
+            "blockClass":"footer-copyright"
+        }
+    },
+    "flex-layout.col#footer__copyright":{
+        "children":[
+            "image#footer__copyright--image",
+            "rich-text#footer__copyright--text"
+        ],
+        "props":{
+            "blockClass":"footer-copyright-container"
+        }
+    },
+    "image#footer__copyright--image":{
+        "props":{
+            "width": "40%",
+            "heigt":"0",
+            "src":"assets/img/homencenter_icon.jpg"
+        }
+    },
+    "rich-text#footer__copyright--text":{
+        "props":{
+            "text":"Todos los derechos reservados"
+        }
+    }
+}

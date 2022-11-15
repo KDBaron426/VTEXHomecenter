@@ -4,10 +4,24 @@
 .flexRow--footer-link-btn{
     display: flex;
     background-color: white;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid #bcbcbc;
 }
 .flexRow--footer-socialNetworks{
     display: flex;
     margin-top: 1.3rem;
     margin-bottom: 0.5rem;
     background-color: white;
+}
+.flexCol--footer-copyright-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -2rem;
+    padding-bottom: 1rem;
+}
+.flexColChild--footer-copyright-container{
+    margin-right: -2rem;
 }
