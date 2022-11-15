@@ -9,7 +9,7 @@
       "drawer#header__mobile--menu",
       "flex-layout.row#logo-mobile",
       "flex-layout.row#search-mobile",
-      "minicart.v2",
+      "minicart.v2#custom",
       "login"
     ],
     "props": {
@@ -55,12 +55,5 @@
   },
   "drawer#header__mobile--menu": {
     "children": ["menu#header__menu"]
-  },
-  "minicart.v2":{
-    "props":{
-      "variation":"drawer",
-      "itemCountMode":"total",
-      "quantityDisplay":"always"
-    }
   }
 }
