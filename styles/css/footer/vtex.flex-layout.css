@@ -23,5 +23,6 @@
     padding-bottom: 1rem;
 }
 .flexColChild--footer-copyright-container{
+    align-items: center;
     margin-right: -2rem;
 }

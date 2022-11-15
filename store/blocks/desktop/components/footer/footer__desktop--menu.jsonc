@@ -1,0 +1,26 @@
+{
+    "flex-layout.row#footer__desktop--menu":{
+        "children":[
+            "flex-layout.col#footer__desktop--menu"
+        ],
+        "props":{
+            "blockClass":"footer-menu-desktop"
+        }
+    },
+    "flex-layout.col#footer__desktop--menu":{
+        "children":[
+            "menu#footer__desktop--menu--group"
+        ]
+    },
+    "menu#footer__desktop--menu--group": {
+        "children": [
+          "menu-item#footer__menu--pqr",
+          "menu-item#footer__menu--methods",
+          "menu-item#footer__menu--personal",
+          "menu-item#footer__menu--phone"
+        ],
+        "props": {
+          "orientation": "horizontal"
+        }
+      }
+}
