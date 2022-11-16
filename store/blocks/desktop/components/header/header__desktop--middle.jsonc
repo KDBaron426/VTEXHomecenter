@@ -49,9 +49,10 @@
   },
   "search-bar": {
     "props": {
-      "placeholder": "¿Qué estás buscando?"
+      "placeholder": "¿Qué estás buscando?",
+      "openAutocompleteOnFocus": true
     }
-  },
+ },
   "modal-trigger#header__top--login":{
     "children":[
       "rich-text#header__top--login",
