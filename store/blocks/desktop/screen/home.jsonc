@@ -1,6 +1,6 @@
 {
-  "store.home": { 
-    "blocks": [
+  "responsive-layout.desktop": { 
+    "children": [
       "slider-layout#home__slider--children",
       "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--two",
