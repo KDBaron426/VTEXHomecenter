@@ -7,7 +7,13 @@
       "flex-layout.row#home__section--three",
       "flex-layout.row#home__section--four",
       "flex-layout.row#home__section--five",
-      "flex-layout.row#home__shelf--one"
+      "flex-layout.row#home__shelf--one",
+      "flex-layout.row#home__section--six",
+      "flex-layout.row#home__section--seven",
+      "flex-layout.row#home__shelf--one",
+      "flex-layout.row#home__section--eight",
+      "flex-layout.row#home__section--nine",
+      "flex-layout.row#home__section--ten"
     ]
   }
 }

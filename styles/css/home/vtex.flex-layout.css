@@ -59,6 +59,17 @@
 .flexRowContent--promo__banner {
   gap: 3rem;
 }
+.flexRow--home__section--six {
+  width: 66%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+.flexRow--home__section--seven {
+  width: 66%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
 @media (max-width: 1024px) {
   .flexRow--promo__banner {
     max-width: 95%;

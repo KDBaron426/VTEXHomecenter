@@ -8,7 +8,7 @@
     "children": [
       "drawer#header__mobile--menu",
       "flex-layout.row#logo-mobile",
-      "flex-layout.row#search-mobile",
+      "search-bar#header__mobile-search",
       "minicart.v2#custom",
       "login"
     ],
@@ -34,15 +34,6 @@
       "src": "assets/img/homencenter_icon.jpg"
     }
   },
-
-  "flex-layout.row#search-mobile": {
-    "children": ["search-bar#mobile"]
-  },
-  "search-bar#mobile": {
-    "props": {
-      "blockClass": "search-header-mobile"
-    }
-  },
   "login": {
     "props": {
       "accessCodeTitle": "Acess code LOG-IN",
@@ -55,5 +46,11 @@
   },
   "drawer#header__mobile--menu": {
     "children": ["menu#header__menu"]
+  },
+  "search-bar#header__mobile-search":{
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
   }
 }

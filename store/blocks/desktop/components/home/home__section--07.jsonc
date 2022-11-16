@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#home__section--seven": {
+    "children": [
+      "flex-layout.col#section__seven-banner",
+      "flex-layout.col#section__seven-banner-two"
+    ],
+    "props":{"blockClass": "home__section--seven"}
+  },
+  "flex-layout.col#section__seven-banner": {
+    "children": ["image#section__seven-banner"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "image#section__seven-banner": {
+    "props": {
+      "src": "assets/img/banner__4-03.png"
+    }
+  },
+  "flex-layout.col#section__seven-banner-two": {
+    "children": ["image#section__seven-banner-two"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "image#section__seven-banner-two": {
+    "props": {
+      "src": "assets/img/banner__4-04.png"
+    }
+  }
+}
