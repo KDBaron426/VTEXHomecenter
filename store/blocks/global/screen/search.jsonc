@@ -1,34 +1,41 @@
 {
   "store.search": {
+    "blocks": ["search-result-layout"]
+  },
+  "store.search#category": {
+    "blocks": ["search-result-layout"]
+  },
+  "store.search#subcategory": {
+    "blocks": ["search-result-layout"]
+  },
+  "store.search#brand": {
+    "blocks": ["search-result-layout"]
+  },
+  "search-result-layout": {
     "blocks": [
-      "search-result-layout"
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
     ]
   },
-  "store.search#department":{
-    "blocks":[
-      "search-result-layout"
+  "search-result-layout.desktop": {
+    "children":[
+      "rich-text#desktop-response"
     ]
   },
-  "store.search#category":{
-    "blocks":[
-      "search-result-layout"
+  "search-result-layout.mobile": {
+    "children":[
+      "rich-text#mobile-response"
     ]
   },
-  "store.search#subcategory":{
-    "blocks":[
-      "search-result-layout"
-    ]
+  "rich-text#desktop-response":{
+    "props":{
+      "text":"# desktop response"
+    }
   },
-  "store.search#brand":{
-    "blocks":[
-      "search-result-layout"
-    ]
-  },
-  "search-result-layout":{
-    "blocks":[
-        "search-result-layout.desktop",
-        "search-result-layout.mobile",
-        "search-not-found-layout"
-    ]
-}
+  "rich-text#mobile-response":{
+    "props":{
+      "text":"# mobile response"
+    }
+  }
 }
