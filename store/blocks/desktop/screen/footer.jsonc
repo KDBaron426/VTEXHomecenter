@@ -2,7 +2,11 @@
     "footer-layout.desktop": { 
     "children": [
       "flex-layout.row#footer__desktop--menu",
+      "flex-layout.row#footer__menu--all",
       "flex-layout.row#footer__copyright"
-    ]
+    ],
+    "props":{
+      "blockClass":"footer-main"
+    }
   }
 }

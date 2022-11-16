@@ -1,6 +1,9 @@
 .footerLayout--menu-footer-mobile{
     background-color: white;
 }
+.footerLayout--footer-main{
+    background-color: white;
+}
 .flexRow--footer-link-btn{
     display: flex;
     background-color: white;
@@ -25,4 +28,29 @@
 .flexColChild--footer-copyright-container{
     align-items: center;
     margin-right: -2rem;
+    margin-top: 1rem;
+}
+.flexCol--footer__one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    width: 66%;
+}
+.flexColChild--footer__one{
+    margin-bottom: -1rem;
+}
+.flexRowContent--footer-menu-desktop{
+    align-items: center;
+}
+.flexRowContent--footer-copyright{
+    align-items: center;
+}
+.flexRow--footer-copyright{
+    border-top: 0.1rem solid #bcbcbc;
+    margin-top: 0.8rem;
+}
+.flexRow--footer-menu-desktop{
+    background-color: #eeeeee;
 }

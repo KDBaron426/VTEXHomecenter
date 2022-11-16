@@ -1,3 +1,7 @@
 .footerLayout--menu-footer-mobile{
     background-color: white;
 }
+.footerLayout--footer-main{
+    background-color: white;
+    margin-top: 1rem;
+}

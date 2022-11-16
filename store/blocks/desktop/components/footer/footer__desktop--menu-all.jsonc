@@ -1,0 +1,261 @@
+{
+  "flex-layout.row#footer__menu--all": {
+    "props": {
+      "verticalAlign": "middle",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    },
+    "children": [
+      "flex-layout.col#footer__menu--service",
+      "flex-layout.col#footer__menu--account",
+      "flex-layout.col#footer__menu--homecenter",
+      "flex-layout.col#footer__menu--app"
+    ]
+  },
+  "flex-layout.col#footer__menu--service": {
+    "children": ["menu#footer__menu--service"]
+  },
+  "menu#footer__menu--service": {
+    "children": [
+      "menu-item#footer__menu--service",
+      "menu-item#footer__menu--business",
+      "menu-item#footer__menu--paid",
+      "menu-item#footer__menu--change",
+      "menu-item#footer__menu--data",
+      "menu-item#footer__menu--conditions",
+      "menu-item#footer__menu--consumer",
+      "menu-item#footer__menu--map",
+      "menu-item#footer__menu--SIC"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#footer__menu--service": {
+    "props": {
+        "id": "menu-item-service",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Servicio al cliente",
+          "text": "Servicio al cliente"
+        } 
+    }
+  },
+  "menu-item#footer__menu--business": {
+    "props": {
+      "text": "Venta a empresas",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--paid": {
+    "props": {
+      "text": "Medios de pago",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--change": {
+    "props": {
+      "text": "Cambios y devoluciones",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--data": {
+    "props": {
+      "text": "Política de protección de datos personales",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--conditions": {
+    "props": {
+      "text": "Términos y condiciones",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--consumer": {
+    "props": {
+      "text": "Estatuto del consumidor",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--map": {
+    "props": {
+      "text": "Mapa del sitio",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--SIC": {
+    "props": {
+      "text": "Superintendencia Industria y Comercio SIC",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "flex-layout.col#footer__menu--account": {
+    "children": ["menu#footer__menu--account"]
+  },
+  "menu#footer__menu--account": {
+    "children": [
+      "menu-item#footer__menu--my-account",
+      "menu-item#footer__menu--register",
+      "menu-item#footer__menu--change-psw",
+      "menu-item#footer__menu--forgot-psw"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#footer__menu--my-account": {
+    "props": {
+      "text": "Mi cuenta",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--register": {
+    "props": {
+      "text": "Regístrate",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--change-psw": {
+    "props": {
+      "text": "Cambia tu clave",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--forgot-psw": {
+    "props": {
+      "text": "Olvidé mi clave",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "flex-layout.col#footer__menu--homecenter": {
+    "children": ["menu#footer__menu--homecenter"]
+  },
+  "menu#footer__menu--homecenter": {
+    "children": [
+      "menu-item#footer__menu--homecenter",
+      "menu-item#footer__menu--providers",
+      "menu-item#footer__menu--investors",
+      "menu-item#footer__menu--corporate-social",
+      "menu-item#footer__menu--anti-corruption",
+      "menu-item#footer__menu--work",
+      "menu-item#footer__menu--sell-homecenter",
+      "menu-item#footer__menu--sodimac",
+      "menu-item#footer__menu--nit"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#footer__menu--homecenter": {
+    "props": {
+      "text": "Más de Homecenter",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--providers": {
+    "props": {
+      "text": "Información a proveedores",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--investors": {
+    "props": {
+      "text": "Información a inversionistas",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--corporate-social": {
+    "props": {
+      "text": "Responsabilidad Social Empresarial",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--anti-corruption": {
+    "props": {
+      "text": "La linea de ética y anticorrupción - lineaeticayanticorrupcion@homecenter.co",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--work": {
+    "props": {
+      "text": "Trabaje para nosotros",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--sell-homecenter": {
+    "props": {
+      "text": "Vende en Homecenter.com.co",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--sodimac": {
+    "props": {
+      "text": "Sodimac Colombia S.A.",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "menu-item#footer__menu--nit": {
+    "props": {
+      "text": "NIT 800.242.106-2",
+      "blockClass": "footer-menu-item"
+    }
+  },
+  "flex-layout.col#footer__menu--app": {
+    "children": ["menu#footer__menu--app", "social-networks"]
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://www.facebook.com/homecentercolombia/",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://www.instagram.com/homecenter_co/",
+          "name": "Instagram"
+        },
+        { "url": "https://twitter.com/Homecenter_co", "name": "Twitter" },
+        {
+          "url": "https://www.youtube.com/c/homecentercolombia/videos",
+          "name": "Youtube"
+        },
+        {
+          "url": "https://co.pinterest.com/homecentercol/",
+          "name": "Pinterest"
+        }
+      ]
+    }
+  },
+  "menu#footer__menu--app": {
+    "children": [
+      "menu-item#footer__menu--homecenter-app",
+      "menu-item#footer__menu--providers-app",
+      "menu-item#footer__menu--investors-app"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#footer__menu--homecenter-app": {
+    "props": {
+        "text": "Descargar la APP Homecenter",
+        "blockClass": "footer-menu-item"
+      }
+  },
+  "menu-item#footer__menu--providers-app": {
+    "props": {
+        "text": "Apple Store",
+        "blockClass": "footer-menu-item"
+      }
+  },
+  "menu-item#footer__menu--investors-app": {
+    "props": {
+        "text": "Google Store",
+        "blockClass": "footer-menu-item"
+      }
+  }
+}
