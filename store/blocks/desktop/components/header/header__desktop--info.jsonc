@@ -2,7 +2,7 @@
     "flex-layout.row#desktop--info": {
         "title":"desktop-info",
         "props":{
-            "blockClass":"info-menu",
+            "blockClass":"menu-link",
             "horizontalAlign":"center",
             "preventHorizontalStretch":true,
             "preventVerticalStretch":true,
@@ -16,7 +16,7 @@
     "vtex.menu@2.x:menu#websites":{
         "title":"menu info",
         "props":{
-            "blockClass":"menu-content-contact"
+            "blockClass":"websites"
         },
         "children":[
             "menu-item#phone",
@@ -33,14 +33,15 @@
     "menu-item#separator":{
         "props": {
             "id": "menu-item-separator",
-            "blockClass":"menu-content",
+            "iconId": null,
+            "blockClass":"menu-slash",
             "type": "custom",
             "highlight": false,
             "itemProps": {
               "type": "internal",
               "href": "#",
               "noFollow": false,
-              "tagTitle": "separator",
+              "tagTitle": "|",
               "text": "|"
             }
           }
@@ -48,8 +49,9 @@
     "menu-item#phone":{
         "props": {
             "id": "menu-item-phone",
-            "blockClass":"menu-content",
+            "blockClass": "menu-item",
             "type": "custom",
+            "iconId": null,
             "highlight": false,
             "itemProps": {
               "type": "internal",
@@ -63,8 +65,9 @@
     "menu-item#service":{
         "props": {
             "id": "menu-item-service",
-            "blockClass":"menu-content",
+            "blockClass": "menu-item",
             "type": "custom",
+            "iconId": null,
             "highlight": false,
             "itemProps": {
               "type": "internal",
@@ -78,8 +81,9 @@
     "menu-item#shops":{
         "props": {
             "id": "menu-item-shops",
-            "blockClass":"menu-content",
+            "blockClass": "menu-item",
             "type": "custom",
+            "iconId": null,
             "highlight": false,
             "itemProps": {
               "type": "internal",
@@ -93,8 +97,9 @@
     "menu-item#lowprice":{
         "props": {
             "id": "menu-item-lowprice",
-            "blockClass":"menu-content",
+            "blockClass": "menu-item",
             "type": "custom",
+            "iconId": null,
             "highlight": false,
             "itemProps": {
               "type": "internal",
@@ -108,8 +113,9 @@
     "menu-item#cmr":{
         "props": {
             "id": "menu-item-cmr",
-            "blockClass":"menu-content",
+            "blockClass": "menu-item",
             "type": "custom",
+            "iconId": null,
             "highlight": false,
             "itemProps": {
               "type": "internal",
@@ -122,9 +128,6 @@
     },
     "vtex.menu@2.x:menu#others":{
         "title":"menu others",
-        "props":{
-            "blockClass":"menu-content-others"
-        },
         "children":[
             "menu-item#falabella",
             "menu-item#separator",
@@ -138,8 +141,9 @@
     "menu-item#falabella":{
         "props": {
             "id": "menu-item-falabella",
-            "blockClass":"menu-content",
+            "blockClass": "menu-institucional",
             "type": "custom",
+            "iconId": null,
             "highlight": false,
             "itemProps": {
               "type": "internal",
@@ -153,8 +157,9 @@
     "menu-item#bank":{
         "props": {
             "id": "menu-item-bank",
-            "blockClass":"menu-content",
+            "blockClass": "menu-institucional",
             "type": "custom",
+            "iconId": null,
             "highlight": false,
             "itemProps": {
               "type": "internal",
@@ -168,8 +173,9 @@
     "menu-item#insurance":{
         "props": {
             "id": "menu-item-insurance",
-            "blockClass":"menu-content",
+            "blockClass": "menu-institucional",
             "type": "custom",
+            "iconId": null,
             "highlight": false,
             "itemProps": {
               "type": "internal",
@@ -183,8 +189,9 @@
     "menu-item#buy":{
         "props": {
             "id": "menu-item-buy",
-            "blockClass":"menu-content",
+            "blockClass": "menu-institucional",
             "type": "custom",
+            "iconId": null,
             "highlight": false,
             "itemProps": {
               "type": "internal",

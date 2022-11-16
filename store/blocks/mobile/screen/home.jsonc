@@ -1,7 +1,7 @@
 {
     "responsive-layout.mobile": { 
       "children": [
-        
+        "slider-layout#home__slider--children"
       ]
     }
   }

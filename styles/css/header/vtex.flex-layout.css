@@ -1,18 +1,23 @@
-.flexRowContent--info-menu{
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(231, 231, 231);
-  height: 30px;
+.flexRowContent--menu-link {
+  height: 1.75rem;
 }
-.flexRowContent--main-header{
-  background-color: white;
-}
-.flexRowContent--info-menu :global(.vtex-menu-2-x-styledLink) {
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: #333 !important;
-  font-size: 0.6rem !important;
-  margin: 1rem;
+  font-size: 0.7rem !important;
+  padding: 0 1.8125rem;
 }
-.flexColChild--search-desktop{
+.flexRow--menu-link {
+  background: #ebebeb;
+}
+.flexRowContent--menu-link {
+  width: 66%;
+  margin: 0 auto;
+  background-color: #ebebeb;
+  color: #333 !important;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexColChild--search-desktop {
   width: 40rem;
   margin-left: 1.5rem;
 }
@@ -22,44 +27,51 @@
   justify-content: center;
   align-items: center;
 }
-.flexRowContent--logo-header-mobile{
+.flexRowContent--main-header {
+  background-color: white;
+  height: 6rem;
+  align-items: center;
+}
+.flexRowContent--logo-header-mobile {
   width: 35px;
 }
-.flexRow--logo-header-mobile{
+.flexRow--logo-header-mobile {
   margin-right: 1rem;
 }
-.flexRowContent--search-header-mobile{
+.flexRowContent--search-header-mobile {
   border: 0;
 }
-.flexRow--desktop-middleMenu{
+.flexRow--desktop-middleMenu {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(231, 231, 231);
+  background-color: white;
   height: 50px;
   margin-bottom: 0.5rem;
+  border-top: 0.1rem solid #ebebeb;
+  border-bottom: 0.1rem solid #ebebeb;
 }
 .flexRowContent--desktop-middleMenu :global(.vtex-menu-2-x-styledLink) {
   color: #333 !important;
   font-size: 0.8rem !important;
 }
-.triggerContainer--login-middle{
+.triggerContainer--login-middle {
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
   align-content: center;
 }
-.paragraph--my-account{
+.paragraph--my-account {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 0.5rem;
 }
-.wrapper--my-account{
+.wrapper--my-account {
   margin-top: 2rem;
 }
-.flexCol--icon-cart{
+.flexCol--icon-cart {
   display: flex;
   justify-content: center;
   align-items: center;
