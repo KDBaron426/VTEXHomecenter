@@ -1,5 +1,5 @@
 .flexRow--home__section--one {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   padding: 1.5rem 0 1.5rem 0;
 }
@@ -9,11 +9,12 @@
 .stretchChildrenWidth {
   margin-left: 0.8rem;
 }
-.flexColChild--home__section--image-banner {
-  max-width: 300px;
+.flexColChild--home__section--image-banner:hover {
+  transition:.2s;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .flexRow--home__section--two {
-  width: 66%;
+  width: 70%;
   margin: 0 auto;
   padding: 1.5rem 0 1.5rem 0;
 }
@@ -29,16 +30,20 @@
   align-items: center;
   padding: 1rem;
 }
+.flexCol--banner-two:hover {
+  transition:.2s;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
 .wrapper--home__section--two-banner-title {
   text-align: center;
 }
 .flexRow--home__section--three {
-  width: 66%;
+  width: 70%;
   margin: 0 auto;
   padding: 1.5rem 0 1.5rem 0;
 }
 .flexRow--home__section--four {
-  width: 66%;
+  width: 70%;
   margin: 0 auto;
   padding: 1.5rem 0 1.5rem 0;
 }
@@ -46,13 +51,13 @@
   color: rgb(32, 125, 232);
 }
 .flexRow--home__section--five {
-  width: 66%;
+  width: 70%;
   margin: 0 auto;
   padding: 1.5rem 0 1.5rem 0;
 }
 .flexRow--promo__banner {
   background-color: white !important;
-  max-width: 66%;
+  max-width: 70%;
   padding: 1.5rem 0;
   margin: 0 auto;
 }
@@ -60,13 +65,13 @@
   gap: 3rem;
 }
 .flexRow--home__section--six {
-  width: 66%;
+  width: 70%;
   margin: 0 auto;
   padding-top: 2rem;
   padding-bottom: 0.5rem;
 }
 .flexRow--home__section--seven {
-  width: 66%;
+  width: 70%;
   margin: 0 auto;
   padding-bottom: 2rem;
 }

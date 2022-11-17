@@ -13,7 +13,10 @@
   "flex-layout.col#section__five--muebles": {
     "children":[
         "image#section__five--muebles"
-    ]
+    ],
+    "props":{
+      "blockClass": "home__section--image-banner"
+    }
   },
   "image#section__five--muebles":{
     "props":{
@@ -23,7 +26,10 @@
   "flex-layout.col#section__five--espejos": {
     "children":[
         "image#section__five--espejos"
-    ]
+    ],
+    "props":{
+      "blockClass": "home__section--image-banner"
+    }
   },
   "image#section__five--espejos":{
     "props":{
@@ -33,7 +39,10 @@
   "flex-layout.col#section__five--cerraduras": {
     "children":[
         "image#section__five--cerraduras"
-    ]
+    ],
+    "props":{
+      "blockClass": "home__section--image-banner"
+    }
   },
   "image#section__five--cerraduras":{
     "props":{
@@ -43,7 +52,10 @@
   "flex-layout.col#section__five--cocina": {
     "children":[
         "image#section__five--cocina"
-    ]
+    ],
+    "props":{
+      "blockClass": "home__section--image-banner"
+    }
   },
   "image#section__five--cocina":{
     "props":{
