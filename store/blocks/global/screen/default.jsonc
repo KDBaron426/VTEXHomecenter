@@ -27,7 +27,8 @@
       "product-summary-add-to-list-button",
       "product-summary-image",
       "product-summary-name",
-      "product-summary-space"
+      "product-summary-space",
+      "product-summary-buy-button"
     ]
   }
 }

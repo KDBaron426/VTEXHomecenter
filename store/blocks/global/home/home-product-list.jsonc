@@ -15,7 +15,7 @@
     },
     "list-context.product-list#demo1": {
       "blocks": [
-        "product-summary.shelf"
+        "product-summary.shelf#custom"
       ],
       "children": [
         "slider-layout#demo-products"
@@ -36,7 +36,7 @@
         "blockClass": "shelf"
       }
     },
-    "product-summary.shelf":{
+    "product-summary.shelf#custom":{
         "children": [
             "product-summary-image",
             "product-summary-name"

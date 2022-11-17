@@ -26,7 +26,8 @@
     "title": "logo",
     "props": {
       "blockClass": "logo-desktop",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "href": "/"
     },
     "children": ["image#logo"]
   },
