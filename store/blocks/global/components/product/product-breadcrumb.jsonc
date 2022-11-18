@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#product__breadcrumb": {
+        "title":"navigation of the products",
+        "children":[
+          "flex-layout.col#product__breadcrumb"
+        ]
+      },
+      "flex-layout.col#product__breadcrumb":{
+        "children":[
+          "breadcrumb"
+        ]
+    }
+}

@@ -23,6 +23,7 @@
   },
   "product-summary.shelf": {
     "children": [
+      "add-to-list-btn",
       "product-summary-image",
       "product-summary-name",
       "product-rating-inline",
@@ -67,6 +68,7 @@
   },
   "flex-layout.col#quick-view__modal--info": {
     "children":[
+      "add-to-list-btn",
       "product-summary-name",
       "product-summary-brand",
       "product-summary-price",
