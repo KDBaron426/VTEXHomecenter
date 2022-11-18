@@ -152,7 +152,16 @@
   },
   "menu-item#footer__menu--homecenter": {
     "props": {
-      "text": "Más de Homecenter",
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sobre-nosotros",
+        "noFollow": false,
+        "tagTitle": "Más de Homecenter",
+        "text": "Más de Homecenter"
+      },
       "blockClass": "footer-menu-item"
     }
   },
