@@ -24,13 +24,19 @@
 
   "product-summary.shelf": {
     "children": [
-      "product-summary-add-to-list-button",
       "product-summary-image",
       "product-summary-name",
       "product-rating-inline",
-      "product-summary-space",
       "product-summary-price",
-      "product-summary-buy-button"
+      "product-summary-sku-selector",
+      "add-to-cart-button"
     ]
+  },
+  "product-summary-sku-selector":{
+    "props":{
+      "maxItems":4,
+      "hideImpossibleCombinations":true,
+      "visibility":"more-than-one"
+    }
   }
 }

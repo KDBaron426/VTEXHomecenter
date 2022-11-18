@@ -3,7 +3,7 @@
     "blocks": ["search-result-layout"],
     "props":{
       "context":{
-        "skuFilter":"FIRST_AVAILABLE",
+        "skuFilter":"ALL",
         "simulationBehavior":"default"
       }
     }
