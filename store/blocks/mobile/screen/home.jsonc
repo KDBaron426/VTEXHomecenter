@@ -1,7 +1,13 @@
 {
     "responsive-layout.mobile": { 
       "children": [
+        "image#home__location--mobile",
         "slider-layout#home__slider--children"
       ]
+    },
+    "image#home__location--mobile":{
+        "props":{
+            "src":"assets/img/banner__location--mobile.png"
+        }
     }
   }

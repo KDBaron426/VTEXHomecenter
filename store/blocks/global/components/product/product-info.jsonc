@@ -30,7 +30,8 @@
         "rich-text#product__promo-info",
         "product-description",
         "shipping-simulator",
-        "availability-subscriber"
+        "availability-subscriber",
+        "add-to-cart-button"
     ]
   },
   "rich-text#product__promo-info":{
