@@ -15,16 +15,63 @@
   "flex-layout.row#about-us__section--three": {
     "children": ["flex-layout.col#about-us__section--three"]
   },
-  "flex-layout.col#about-us__section--one":{
+  "flex-layout.col#about-us__section--one": {
+    "children": ["rich-text#section__one--tile"]
+  },
+  "flex-layout.col#about-us__section--two": {
+    "children": ["slider-layout#about-us"]
+  },
+  "flex-layout.col#about-us__section--three": {
     "children":[
-      "rich-text#section__one--tile"
+      "rich-text#about-us__section--three"
     ]
   },
-  "flex-layout.col#about-us__section--two":{},
-  "flex-layout.col#about-us__section--three":{},
-  "rich-text#section__one--tile":{
+  "rich-text#section__one--tile": {
+    "props": {
+      "text": "## Quienes Somos"
+    }
+  },
+  "slider-layout#about-us": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#about-us__slider--one",
+      "image#about-us__slider--two",
+      "image#about-us__slider--three"
+    ]
+  },
+  "image#about-us__slider--one": {
+    "props": {
+      "src": "http://portaljobs.site/wp-content/uploads/2018/09/dddd55.jpg"
+    }
+  },
+  "image#about-us__slider--two": {
+    "props": {
+      "src": "https://s03.s3c.es/imag/_v0/635x300/5/f/7/SODIMAC.jpg"
+    }
+  },
+  "image#about-us__slider--three": {
+    "props": {
+      "src": "https://www.impreso.diarioeldia.cl/sites/default/files/14434/la_foto_0.jpg"
+    }
+  },
+  "rich-text#about-us__section--three":{
     "props":{
-      "text":"## Acerca de nosotros"
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text":"Sodimac es una empresa que opera en el retail, industria donde ha alcanzado una posición de liderazgo en el merca- do del mejoramiento del hogar. Busca satisfacer al cliente a través de múltiples puntos de contacto y canales de venta que aseguran nuestro modelo de negocio Omnicanal (Tiendas, Internet y Teléfono). Su actividad se focaliza en desarrollar y proveer soluciones a los proyectos de remodelación y construcción de sus clientes, además de satisfacer las necesidades de mejoramiento y decoración de sus hogares, ofreciendo excelencia en el servicio, integridad en su trabajo y un fuerte compromiso con la comunidad."
     }
   }
 }
