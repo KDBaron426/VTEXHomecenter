@@ -6,9 +6,6 @@
 .flexRowContent--home__section--one {
   justify-content: center;
 }
-.stretchChildrenWidth {
-  margin-left: 0.8rem;
-}
 .flexColChild--home__section--image-banner:hover {
   transition:.2s;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -80,5 +77,10 @@
     max-width: 95%;
     margin: 0 auto;
     padding: 2rem 0;
+  }
+  .flexRow--home__section--four {
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1.5rem 0 1.5rem 0;
   }
 }

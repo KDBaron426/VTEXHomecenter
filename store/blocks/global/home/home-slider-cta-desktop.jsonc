@@ -1,11 +1,9 @@
 {
-    "slider-layout#home__slider--children": {
+    "slider-layout#home__slider-desktop--children": {
       "title": "Slider con hijos declarados",
       "props": {
         "itemsPerPage": {
-          "desktop": 1,
-          "tablet": 1,
-          "phone": 1
+          "desktop": 1
         },
         "infinite": true,
         "showNavigationArrows": "desktopOnly",
