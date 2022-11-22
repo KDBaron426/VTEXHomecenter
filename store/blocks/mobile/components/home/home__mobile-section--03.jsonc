@@ -1,0 +1,42 @@
+{
+    "flex-layout.row#home__section-mobile--three": {
+      "title": "Banners Section Mobiles",
+      "children": [
+        "flex-layout.col#section__one-mobile--muebles",
+        "flex-layout.col#section__one-mobile--espejos"
+      ],
+      "props": {
+        "blockClass": "home__section-mobile-two",
+        "colSizing": "auto",
+        "colGap": 3
+      }
+    },
+    "flex-layout.col#section__one-mobile--muebles": {
+      "children": ["image#home__mobile-image--banner-05"],
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "blockClass": "home__section--image-banner"
+      }
+    },
+    "flex-layout.col#section__one-mobile--espejos": {
+      "children": ["image#home__mobile-image--banner-06"],
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "middle",
+        "blockClass": "home__section--image-banner"
+      }
+    },
+    "image#home__mobile-image--banner-05": {
+      "props": {
+        "src": "assets/img/banner__3-01.png",
+        "width": "100%"
+      }
+    },
+    "image#home__mobile-image--banner-06": {
+      "props": {
+        "src":"assets/img/banner__3-02.png",
+        "width": "100%"
+      }
+    }
+  }

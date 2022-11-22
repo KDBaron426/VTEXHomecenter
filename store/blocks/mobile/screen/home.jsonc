@@ -8,8 +8,11 @@
         "slider-layout#home__slider-mobile-discount-two",
         "slider-layout#home__slider-mobile-discount-three",
         "flex-layout.row#home__section--four",
+        "flex-layout.row#home__section-mobile--three",
+        "flex-layout.row#home__section-mobile--four",
         "flex-layout.row#home__shelf--one",
-        "flex-layout.row#home__shelf--one"
+        "flex-layout.row#home__shelf--one",
+        "flex-layout.row#terms-and-conditions"
       ]
     },
     "image#home__location--mobile":{
