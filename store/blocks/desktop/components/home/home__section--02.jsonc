@@ -9,8 +9,9 @@
       "flex-layout.col#section__two--banner-baños",
       "flex-layout.col#section__two--banner-productos"
     ],
-    "props":{
-        "blockClass": "home__section--two"
+    "props": {
+      "colGap": 3,
+      "blockClass": "home__section--two"
     }
   },
   "flex-layout.col#section__two--banner-electro": {
@@ -31,7 +32,7 @@
   },
   "rich-text#banner-electro-title": {
     "props": {
-      "blockClass":"home__section--two-banner-title",
+      "blockClass": "home__section--two-banner-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Electro Hogar"
@@ -60,7 +61,7 @@
   },
   "rich-text#banner-muebles-title": {
     "props": {
-      "blockClass":"home__section--two-banner-title",
+      "blockClass": "home__section--two-banner-title",
       "text": "Muebles"
     }
   },
@@ -87,7 +88,7 @@
   },
   "rich-text#banner-herramientas-title": {
     "props": {
-      "blockClass":"home__section--two-banner-title",
+      "blockClass": "home__section--two-banner-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Herramientas y Ferretería"
@@ -110,7 +111,7 @@
   },
   "rich-text#banner-aire-title": {
     "props": {
-      "blockClass":"home__section--two-banner-title",
+      "blockClass": "home__section--two-banner-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Aire libre, Jardín y Mascotas"
@@ -133,7 +134,7 @@
   },
   "rich-text#banner-baños-title": {
     "props": {
-      "blockClass":"home__section--two-banner-title",
+      "blockClass": "home__section--two-banner-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Baños y Cocinas"
@@ -151,7 +152,7 @@
   },
   "rich-text#banner-productos-title": {
     "props": {
-      "blockClass":"home__section--two-banner-title",
+      "blockClass": "home__section--two-banner-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Productos de Tecnología"

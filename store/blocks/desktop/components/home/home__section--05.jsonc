@@ -7,6 +7,7 @@
       "flex-layout.col#section__five--cocina"
     ],
     "props":{
+      "colGap": 3,
         "blockClass":"home__section--five"
     }
   },

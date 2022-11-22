@@ -4,7 +4,7 @@
       "flex-layout.col#section__seven-banner",
       "flex-layout.col#section__seven-banner-two"
     ],
-    "props":{"blockClass": "home__section--seven"}
+    "props":{"colGap": 3,"blockClass": "home__section--seven"}
   },
   "flex-layout.col#section__seven-banner": {
     "children": ["image#section__seven-banner"],

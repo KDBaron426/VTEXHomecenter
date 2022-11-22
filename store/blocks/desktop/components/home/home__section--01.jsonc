@@ -9,7 +9,8 @@
       ],
       "props": {
         "blockClass": "home__section--one",
-        "colSizing":"auto"
+        "colSizing":"auto",
+        "colGap": 3
       }
     },
     "flex-layout.col#section__one--tools": {

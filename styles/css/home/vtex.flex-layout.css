@@ -11,9 +11,9 @@
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .flexRow--home__section--two {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
-  padding: 1.5rem 0 1.5rem 0;
+  padding: 1.5rem 0 0 2rem;
 }
 .flexColChild--banner-two {
   display: flex;
@@ -35,9 +35,9 @@
   text-align: center;
 }
 .flexRow--home__section--three {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
-  padding: 1.5rem 0 1.5rem 0;
+  padding: 1.5rem 0 0 2rem;
 }
 .flexRow--home__section--four {
   width: 70%;
@@ -72,6 +72,19 @@
   margin: 0 auto;
   padding-bottom: 2rem;
 }
+.flexRowContent--home__section-mobile-one{
+  margin: 0 auto;
+  padding: 3rem 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.flexRowContent--home__section-mobile-two{
+  margin: 0 auto;
+  padding: 0.3rem 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 1024px) {
   .flexRow--promo__banner {
     max-width: 95%;

@@ -3,7 +3,13 @@
       "children": [
         "image#home__location--mobile",
         "slider-layout#home__slider-mobile--children",
-        "flex-layout.row#home__section--four"
+        "flex-layout.row#home__section-mobile--one",
+        "flex-layout.row#home__section-mobile--two",
+        "slider-layout#home__slider-mobile-discount-two",
+        "slider-layout#home__slider-mobile-discount-three",
+        "flex-layout.row#home__section--four",
+        "flex-layout.row#home__shelf--one",
+        "flex-layout.row#home__shelf--one"
       ]
     },
     "image#home__location--mobile":{

@@ -10,6 +10,7 @@
       "flex-layout.col#section__two--banner-navidad"
     ],
     "props": {
+      "colGap": 3,
       "blockClass": "home__section--three"
     }
   },
