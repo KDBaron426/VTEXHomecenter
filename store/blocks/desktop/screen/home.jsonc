@@ -1,8 +1,10 @@
 {
   "responsive-layout.desktop": {
     "children": [
+      "whatsapp-button",
       "flex-layout.row#desktop--location",
       "slider-layout#home__slider-desktop--children",
+      "list-context.bullet-group",
       "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--two",
       "flex-layout.row#home__section--three",
@@ -19,17 +21,23 @@
       "flex-layout.row#terms-and-conditions"
     ]
   },
-  "flex-layout.row#terms-and-conditions": {
-    "children": [
-      "flex-layout.col#terms-and-conditions"
-    ],
-    "props":{
-      "horizontalAlign":"center",
-      "blockClass":"home-conditions"
+  "whatsapp-button": {
+    "title": "Boton de whatsapp",
+    "props": {
+      "logo": "https://www.unipile.com/wp-content/uploads/2022/02/icone-logo-whatsapp-vert.png",
+      "phone": "123456789",
+      "message": "Estás comunicándote con Homecenter, por favor ingresa tu duda."
     }
   },
-  "flex-layout.col#terms-and-conditions":{
-    "children":[
+  "flex-layout.row#terms-and-conditions": {
+    "children": ["flex-layout.col#terms-and-conditions"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "home-conditions"
+    }
+  },
+  "flex-layout.col#terms-and-conditions": {
+    "children": [
       "rich-text#terms-and-conditions-title",
       "rich-text#terms-and-conditions-one",
       "rich-text#terms-and-conditions-two",
@@ -37,18 +45,18 @@
       "rich-text#terms-and-conditions-four",
       "rich-text#terms-and-conditions-five"
     ],
-    "props":{
-      "width":"70%",
-      "horizontalAlign":"center",
-      "verticalAlign":"middle",
-      "rowGap":0
+    "props": {
+      "width": "70%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 0
     }
   },
   "rich-text#terms-and-conditions-title": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "paddingBottom":0,
+      "paddingBottom": 0,
       "text": "**Black Friday del 3 de Noviembre al 2 de Diciembre 2022**"
     }
   },
