@@ -4,7 +4,6 @@
       "whatsapp-button",
       "flex-layout.row#desktop--location",
       "slider-layout#home__slider-desktop--children",
-      "list-context.bullet-group",
       "flex-layout.row#home__section--one",
       "flex-layout.row#home__section--two",
       "flex-layout.row#home__section--three",

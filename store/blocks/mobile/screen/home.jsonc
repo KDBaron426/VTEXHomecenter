@@ -1,24 +1,133 @@
 {
-    "responsive-layout.mobile": { 
-      "children": [
-        "image#home__location--mobile",
-        "slider-layout#home__slider-mobile--children",
-        "flex-layout.row#home__section-mobile--one",
-        "flex-layout.row#home__section-mobile--two",
-        "slider-layout#home__slider-mobile-discount-two",
-        "slider-layout#home__slider-mobile-discount-three",
-        "flex-layout.row#home__section--four",
-        "flex-layout.row#home__section-mobile--three",
-        "flex-layout.row#home__section-mobile--four",
-        "flex-layout.row#home__shelf--one",
-        "flex-layout.row#home__shelf--one",
-        "flex-layout.row#terms-and-conditions"
-      ]
-    },
-    "image#home__location--mobile":{
-        "props":{
-            "width": "100%",
-            "src":"assets/img/banner__location--mobile.png"
+  "responsive-layout.mobile": {
+    "children": [
+      "image#home__location--mobile",
+      "slider-layout#home__slider-mobile--children",
+      "flex-layout.row#home__section-mobile--one",
+      "flex-layout.row#home__section-mobile--two",
+      "list-context.bullet-group#discount__one",
+      "list-context.bullet-group#discount__two",
+      "flex-layout.row#home__section--four",
+      "flex-layout.row#home__section-mobile--three",
+      "flex-layout.row#home__section-mobile--four",
+      "flex-layout.row#home__shelf--one",
+      "flex-layout.row#home__shelf--one",
+      "flex-layout.row#terms-and-conditions"
+    ]
+  },
+  "image#home__location--mobile": {
+    "props": {
+      "width": "100%",
+      "src": "assets/img/banner__location--mobile.png"
+    }
+  },
+  "list-context.bullet-group#discount__one": {
+    "title": "Bullet en descuento",
+    "children": ["slider-layout#bullet-group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "arquivos/banner__descount-01.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-02.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-03.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-04.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-05.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-06.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
         }
+      ]
+    }
+  },
+  "list-context.bullet-group#discount__two": {
+    "title": "Bullet en descuento",
+    "children": ["slider-layout#bullet-group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "arquivos/banner__descount-07.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-08.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-09.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-10.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-11.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-12.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemsPerPage": {
+        "phone": 2,
+        "tablet": 2
+      },
+      "infinite": true
     }
   }
+}
