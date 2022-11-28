@@ -3,7 +3,8 @@
     "blocks": [
       "flex-layout.row#about-us__section--one",
       "flex-layout.row#about-us__section--two",
-      "flex-layout.row#about-us__section--three"
+      "flex-layout.row#about-us__section--three",
+      "flex-layout.row#about-us__section--four"
     ]
   },
   "flex-layout.row#about-us__section--one": {
@@ -73,5 +74,15 @@
       "textPosition": "CENTER",
       "text":"Sodimac es una empresa que opera en el retail, industria donde ha alcanzado una posición de liderazgo en el merca- do del mejoramiento del hogar. Busca satisfacer al cliente a través de múltiples puntos de contacto y canales de venta que aseguran nuestro modelo de negocio Omnicanal (Tiendas, Internet y Teléfono). Su actividad se focaliza en desarrollar y proveer soluciones a los proyectos de remodelación y construcción de sus clientes, además de satisfacer las necesidades de mejoramiento y decoración de sus hogares, ofreciendo excelencia en el servicio, integridad en su trabajo y un fuerte compromiso con la comunidad."
     }
+  },
+  "flex-layout.row#about-us__section--four":{
+    "children":[
+      "flex-layout.col#about-us__section--four"
+    ]
+  },
+  "flex-layout.col#about-us__section--four":{
+    "children":[
+      "pdf-reader"
+    ]
   }
 }

@@ -1,0 +1,9 @@
+{
+  "pdf-reader":{
+    "props":{
+      "pdfUrl":"assets/documents/politica-de-leal-y-libre-competencia.pdf",
+      "width":800,
+      "height":800
+    }
+  }
+}
