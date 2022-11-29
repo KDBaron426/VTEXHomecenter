@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer__desktop--menu": {
+    "title":"Menu Info",
     "children": [
       "flex-layout.col#footer__one",
       "flex-layout.col#footer__two",

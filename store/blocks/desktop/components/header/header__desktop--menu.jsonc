@@ -1,5 +1,6 @@
 {
   "flex-layout.row#desktop--menu": {
+    "title":"Menu header",
     "props": {
       "verticalAlign": "middle",
       "blockClass": "desktop-middleMenu"

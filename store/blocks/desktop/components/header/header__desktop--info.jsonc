@@ -1,6 +1,6 @@
 {
     "flex-layout.row#desktop--info": {
-        "title":"desktop-info",
+        "title":"Menu Info",
         "props":{
             "blockClass":"menu-link",
             "horizontalAlign":"center",

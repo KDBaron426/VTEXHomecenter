@@ -1,5 +1,6 @@
 {
     "flex-layout.row#desktop--location":{
+        "title":"Header location",
         "props":{
             "blockClass":"location-info",
             "horizontalAlign":"center",
