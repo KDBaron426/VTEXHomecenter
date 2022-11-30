@@ -1,5 +1,6 @@
 {
     "store.home": {
+      "title":"Contenedor de home global",
       "blocks": [
         "responsive-layout.desktop",
         "responsive-layout.mobile"

@@ -1,5 +1,6 @@
 {
   "footer-layout.mobile": {
+    "title":"Contenedor footer de mobile",
     "children": [
       "menu#footer__menu--group",
       "flex-layout.row#footer__social",

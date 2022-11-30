@@ -1,5 +1,6 @@
 {
   "responsive-layout.mobile": {
+    "title":"Contenedor home de mobile",
     "children": [
       "image#home__location--mobile",
       "slider-layout#home__slider-mobile--children",
@@ -7,10 +8,12 @@
       "flex-layout.row#home__section-mobile--two",
       "list-context.bullet-group#discount__one",
       "list-context.bullet-group#discount__two",
+      "quick-order",
       "flex-layout.row#home__section--four",
       "flex-layout.row#home__section-mobile--three",
       "flex-layout.row#home__section-mobile--four",
       "flex-layout.row#home__shelf--one",
+      "custom-grid",
       "flex-layout.row#home__shelf--one",
       "flex-layout.row#department-search",
       "flex-layout.row#terms-and-conditions"
@@ -73,7 +76,7 @@
     }
   },
   "list-context.bullet-group#discount__two": {
-    "title": "Bullet en descuento",
+    "title": "Bullet en descuento numero dos",
     "children": ["slider-layout#bullet-group"],
     "props": {
       "bullets": [

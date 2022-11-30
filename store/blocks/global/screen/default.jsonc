@@ -22,6 +22,7 @@
     }
   },
   "product-summary.shelf": {
+    "title":"Pagina de producto",
     "children": [
       "add-to-list-btn",
       "product-summary-image",
@@ -67,6 +68,7 @@
     ]
   },
   "flex-layout.col#quick-view__modal--info": {
+    "title":"Pagina de producto, modal con informacion",
     "children":[
       "add-to-list-btn",
       "product-summary-name",

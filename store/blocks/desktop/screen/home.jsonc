@@ -1,5 +1,6 @@
 {
   "responsive-layout.desktop": {
+    "title":"Contenedor home de escritorio",
     "children": [
       "whatsapp-button",
       "flex-layout.row#desktop--location",
@@ -38,6 +39,7 @@
     }
   },
   "flex-layout.col#terms-and-conditions": {
+    "title":"Contenedor terminos y condiciones",
     "children": [
       "rich-text#terms-and-conditions-title",
       "rich-text#terms-and-conditions-one",

@@ -1,6 +1,7 @@
 
 {
     "header": {
+      "title":"Contenedor de header global",
       "blocks": [
         "header-layout.desktop",
         "header-layout.mobile"

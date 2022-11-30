@@ -1,5 +1,6 @@
 {
   "header-layout.desktop": {
+    "title":"contenedor header global",
     "children": [
       "flex-layout.row#desktop--info",
       "sticky-layout#desktop",

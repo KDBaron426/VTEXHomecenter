@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__section--ten": {
+    "title": "Banners tenth section",
     "children": [
       "flex-layout.col#section__ten-banner",
       "flex-layout.col#section__ten-banner-two"
