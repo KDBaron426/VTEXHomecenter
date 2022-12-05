@@ -1,55 +1,66 @@
-.footerLayout--menu-footer-mobile{
+.footerLayout--menu-footer-mobile {
     background-color: white;
 }
-.footerLayout--footer-main{
+
+.footerLayout--footer-main {
     background-color: white;
 }
-.flexRow--footer-link-btn{
-    display: flex;
+
+.flexRow--footer-link-btn {
+    display         : flex;
     background-color: white;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
+    margin-bottom   : 1rem;
+    padding-bottom  : 1rem;
 }
-.flexRow--footer-socialNetworks{
-    display: flex;
-    margin-top: 1.3rem;
-    margin-bottom: 0.5rem;
+
+.flexRow--footer-socialNetworks {
+    display         : flex;
+    margin-top      : 1.3rem;
+    margin-bottom   : 0.5rem;
     background-color: white;
 }
-.flexCol--footer-copyright-container{
-    display: flex;
+
+.flexCol--footer-copyright-container {
+    display        : flex;
     justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    margin-left: -2rem;
-    padding-bottom: 1rem;
+    flex-direction : row;
+    align-items    : center;
+    margin-left    : -2rem;
+    padding-bottom : 1rem;
 }
-.flexColChild--footer-copyright-container{
-    align-items: center;
+
+.flexColChild--footer-copyright-container {
+    align-items : center;
     margin-right: -2rem;
-    margin-top: 1rem;
+    margin-top  : 1rem;
 }
-.flexCol--footer__one{
-    display: flex;
+
+.flexCol--footer__one {
+    display        : flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    width: 66%;
+    align-items    : center;
+    margin-top     : 1rem;
+    margin-bottom  : 0.5rem;
+    width          : 66%;
 }
-.flexColChild--footer__one{
+
+.flexColChild--footer__one {
     margin-bottom: -1rem;
 }
-.flexRowContent--footer-menu-desktop{
+
+.flexRowContent--footer-menu-desktop {
     align-items: center;
 }
-.flexRowContent--footer-copyright{
+
+.flexRowContent--footer-copyright {
     align-items: center;
 }
-.flexRow--footer-copyright{
+
+.flexRow--footer-copyright {
     border-top: 0.1rem solid #bcbcbc;
     margin-top: 0.8rem;
 }
-.flexRow--footer-menu-desktop{
+
+.flexRow--footer-menu-desktop {
     background-color: #eeeeee;
 }

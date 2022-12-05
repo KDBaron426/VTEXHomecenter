@@ -1,11 +1,13 @@
-.menuContainerNav--menu-footer-mobile{
+.menuContainerNav--menu-footer-mobile {
     background-color: white;
-    padding-top: 1rem;
+    padding-top     : 1rem;
 }
-.styledLinkContent--footer-item-open{
-    padding: 0.6rem 0.6rem 0.6rem 0;
+
+.styledLinkContent--footer-item-open {
+    padding      : 0.6rem 0.6rem 0.6rem 0;
     border-bottom: 0.1rem solid #e2e2e2;
 }
-.styledLinkContent--footer-menu-item{
+
+.styledLinkContent--footer-menu-item {
     white-space: unset;
 }

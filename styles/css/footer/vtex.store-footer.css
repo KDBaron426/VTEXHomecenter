@@ -1,7 +1,8 @@
-.footerLayout--menu-footer-mobile{
+.footerLayout--menu-footer-mobile {
     background-color: white;
 }
-.footerLayout--footer-main{
+
+.footerLayout--footer-main {
     background-color: white;
-    margin-top: 1rem;
+    margin-top      : 1rem;
 }
