@@ -135,4 +135,11 @@
     margin : 1rem auto;
     padding: 1.5rem 0 1.5rem 0;
   }
+
+  .flexRow--home__section--six {
+    width  : 95%;
+    margin : 0 auto;
+    padding: 0;
+    gap    : 10;
+  }
 }

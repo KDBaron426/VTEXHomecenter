@@ -23,8 +23,10 @@
   },
   "product-summary.shelf": {
     "title":"Pagina de producto",
+    "props":{
+      "blockClass":"pdp-summary-shelf"
+    },
     "children": [
-      "add-to-list-btn",
       "product-summary-image",
       "product-summary-name",
       "product-rating-inline",

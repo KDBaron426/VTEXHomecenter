@@ -1,7 +1,9 @@
 {
     "store.search#department": {
+      "title":"Busqueda por departamento",
         "blocks": ["search-result-layout#department"],
         "props":{
+          "blockClass":"search-department",
           "context":{
             "skuFilter":"FIRST_AVAILABLE",
             "simulationBehavior":"default"

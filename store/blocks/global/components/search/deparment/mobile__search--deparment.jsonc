@@ -24,7 +24,8 @@
   "flex-layout.col#category__results--filter": {
     "children": ["filter-navigator.v3"],
     "props": {
-      "width": "25%"
+      "width": "25%",
+      "blockClass":"search-filter"
     }
   },
   "flex-layout.col#category__results--content": {
@@ -43,9 +44,10 @@
   },
   "gallery#department":{
     "props":{
+      "blockClass":"general-grid",
       "layouts":[
         {
-          "name":"general-grid",
+          "name":"deparment-gallery",
           "component":"GeneralGrid",
           "itemsPerRow":{
             "desktop": 4,
