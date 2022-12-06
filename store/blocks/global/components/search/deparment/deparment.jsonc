@@ -1,20 +1,23 @@
 {
-    "store.search#department": {
-      "title":"Busqueda por departamento",
-        "blocks": ["search-result-layout#department"],
-        "props":{
-          "blockClass":"search-department",
-          "context":{
-            "skuFilter":"FIRST_AVAILABLE",
-            "simulationBehavior":"default"
-          }
-        }
-    },
-    "search-result-layout#department": {
-        "blocks": [
-          "search-result-layout.desktop#desktop__department",
-          "search-result-layout.mobile#mobile__department",
-          "search-not-found-layout"
-        ]
+  "store.search#department": {
+    "title": "Busqueda por departamento",
+    "blocks": ["search-result-layout#department"],
+    "props": {
+      "blockClass": "search-department",
+      "context": {
+        "skuFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
       }
+    }
+  },
+  "search-result-layout#department": {
+    "props": {
+      "blockClass": "search-department"
+    },
+    "blocks": [
+      "search-result-layout.desktop#desktop__department",
+      "search-result-layout.mobile#mobile__department",
+      "search-not-found-layout"
+    ]
+  }
 }
