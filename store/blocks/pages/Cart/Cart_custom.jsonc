@@ -1,0 +1,7 @@
+{
+    "store.custom#Cart-items":{
+        "blocks":[
+            "flex-layout.row#about-us__section--one"
+        ]
+    }
+}
