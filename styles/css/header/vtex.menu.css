@@ -111,3 +111,7 @@
 .menuItem--content-blue:hover {
   text-decoration: underline;
 }
+
+.styledLinkContent--content-blue{
+  color: rgb(0, 60, 255);
+}

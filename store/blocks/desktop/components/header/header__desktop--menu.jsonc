@@ -28,7 +28,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "more",
           "itemProps": {
             "type": "internal",
             "href": "#",
@@ -47,7 +46,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "more",
           "itemProps": {
             "type": "internal",
             "href": "#",
@@ -66,7 +64,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "more",
           "itemProps": {
             "type": "internal",
             "href": "#",
@@ -85,7 +82,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "more",
           "itemProps": {
             "type": "internal",
             "href": "#",
@@ -104,7 +100,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "more",
           "itemProps": {
             "type": "internal",
             "href": "#",
@@ -186,7 +181,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -202,7 +196,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -218,7 +211,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/new-page",
@@ -234,7 +226,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -250,7 +241,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/new-page",
@@ -266,7 +256,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -282,7 +271,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -298,7 +286,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -373,7 +360,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -389,7 +375,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -405,7 +390,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -421,7 +405,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -437,7 +420,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -453,7 +435,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -469,7 +450,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -485,7 +465,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -580,7 +559,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -596,7 +574,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -612,7 +589,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -628,7 +604,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -644,7 +619,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -660,7 +634,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -676,7 +649,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -692,7 +664,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -767,7 +738,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -783,7 +753,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -799,7 +768,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -815,7 +783,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -831,7 +798,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -847,7 +813,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -863,7 +828,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
@@ -879,7 +843,6 @@
           "type": "custom",
           "iconId": null,
           "highlight": false,
-          "blockClass": "content-black",
           "itemProps": {
             "type": "internal",
             "href": "/construccion",
