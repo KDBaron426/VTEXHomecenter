@@ -1,0 +1,64 @@
+.flexRowContent--breadcrumb-line {
+    width          : 64rem;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    border-top     : 5px solid gray;
+    padding-top    : 15px;
+    margin-top     : 55px;
+    margin-left    : 15rem;
+}
+
+.flexRowContent--breadcrumb-circle {
+    background-color: white;
+    font-weight     : bold;
+    color           : rgb(0, 110, 255);
+    border          : 3px solid rgb(0, 110, 255);
+    margin-top      : -34px;
+    margin-left     : 14rem;
+    width           : 30px;
+    height          : 30px;
+    line-height     : 30px;
+    text-align      : center;
+    border-radius   : 50%;
+    z-index         : 99;
+}
+
+.flexRowContent--breadcrumb-circle-two {
+    background-color: gray;
+    font-weight     : bold;
+    color           : gray;
+    border          : 3px solid gray;
+    margin-top      : -34px;
+    margin-left     : 46rem;
+    width           : 30px;
+    height          : 30px;
+    line-height     : 30px;
+    text-align      : center;
+    border-radius   : 50%;
+    z-index         : 99;
+}
+
+.flexRowContent--breadcrumb-circle-three {
+    background-color: gray;
+    font-weight     : bold;
+    color           : gray;
+    border          : 3px solid gray;
+    margin-top      : -34px;
+    margin-left     : 78rem;
+    width           : 30px;
+    height          : 30px;
+    line-height     : 30px;
+    text-align      : center;
+    border-radius   : 50%;
+    z-index         : 99;
+}
+
+.flexCol--cart-content-backgroud {
+    background-color: white;
+    padding         : 1rem;
+}
+
+.flexColChild--cart-content-backgroud {
+    margin-left: 1rem;
+}
