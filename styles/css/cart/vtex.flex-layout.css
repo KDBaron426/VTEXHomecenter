@@ -54,11 +54,37 @@
     z-index         : 99;
 }
 
-.flexCol--cart-content-backgroud {
+.flexCol--cart-content-items {
     background-color: white;
     padding         : 1rem;
+    margin-left     : 1rem;
+    width: 60rem;
 }
 
-.flexColChild--cart-content-backgroud {
-    margin-left: 1rem;
+.flexCol--cart-content-resumen {
+    background-color: white;
+    padding         : 1rem;
+    margin-left     : 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .flexRowContent--breadcrumb-line {
+        width          : 23rem;
+        margin-left    : 1rem;
+    }
+    .flexRowContent--breadcrumb-circle {
+        margin-left     : 0.5rem;
+    }
+    
+    .flexRowContent--breadcrumb-circle-two {
+        margin-left     : 11.5rem;
+    }
+    
+    .flexRowContent--breadcrumb-circle-three {     
+        margin-left     : 22.5rem;
+    }
+
+    .flexRowContent--text-container{
+        display: flex;
+    }
 }
