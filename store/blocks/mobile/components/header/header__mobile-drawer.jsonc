@@ -22,9 +22,18 @@
     }
   },
   "menu-item#category": {
+    "title":"categorias-menu-mobile",
     "props": {
       "text": "Categorías",
-      "blockClass":"drawer-item"
+      "blockClass":"drawer-item-one",
+      "iconPosition":"right",
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "black",
+        "mutedClassName": "c-action-primary"
+      }
     },
     "blocks": ["submenu.accordion#department__one"]
   },
@@ -158,7 +167,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/Madera",
+        "href": "/",
         "tagTitle": "automoviles",
         "text": "Automóviles y Carcenter"
       }
@@ -167,7 +176,15 @@
   "menu-item#service-mobile": {
     "props": {
       "text": "Servicios y proyectos",
-      "blockClass":"drawer-item"
+      "blockClass":"drawer-item",
+      "iconPosition":"right",
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "black",
+        "mutedClassName": "c-action-primary"
+      }
     },
     "blocks": ["submenu.accordion#department__two"]
   },
@@ -296,7 +313,15 @@
   "menu-item#inspiration": {
     "props": {
       "text": "Proyectos e Inspiración",
-      "blockClass":"drawer-item"
+      "blockClass":"drawer-item",
+      "iconPosition":"right",
+      "iconProps": {
+        "id": "nav-caret--down",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "black",
+        "mutedClassName": "c-action-primary"
+      }
     },
     "blocks": ["submenu.accordion#department__three"]
   },
