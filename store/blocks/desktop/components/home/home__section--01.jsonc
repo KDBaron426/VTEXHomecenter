@@ -55,22 +55,34 @@
     },
     "image#home__image--banner-01": {
       "props":{
-          "src":"assets/img/banner_01.png"
+          "src":"assets/img/banner_01.png",
+          "link": {
+            "url": "/ladrillos"
+          }
       }
     },
     "image#home__image--banner-02": {
       "props":{
-          "src":"assets/img/banner_02.png"
+          "src":"assets/img/banner_02.png",
+          "link": {
+            "url": "/queso"
+          }
       }
     },
     "image#home__image--banner-03": {
       "props":{
-          "src":"assets/img/banner_03.png"
+          "src":"assets/img/banner_03.png",
+          "link": {
+            "url": "/madera"
+          }
       }
     },
     "image#home__image--banner-04": {
       "props":{
-          "src":"assets/img/banner_04.png"
+          "src":"assets/img/banner_04.png",
+          "link": {
+            "url": "/varilla"
+          }
       }
     }
   }
