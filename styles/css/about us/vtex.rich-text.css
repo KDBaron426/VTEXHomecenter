@@ -1,0 +1,21 @@
+.container--about-us-menu-item-title{
+    padding-left: 2rem;
+}
+
+.container--about-us-section-title{
+    font-size: 20px;
+}
+
+.container--about-us-section-title-one{
+    font-size: 20px;
+}
+
+.container--about-us-section-title-one{
+    border: 1px solid gainsboro;
+    background-color: gainsboro;
+    margin-top: 1rem;
+}
+
+@media (min-width: 1024px) {
+
+}

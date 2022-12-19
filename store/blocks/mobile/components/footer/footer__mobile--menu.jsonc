@@ -5,6 +5,7 @@
       "menu-item#footer__menu--pqr",
       "menu-item#footer__menu--methods",
       "menu-item#footer__menu--personal",
+      "menu-item#footer__menu--about-us",
       "menu-item#footer__menu--phone"
     ],
     "props": {
@@ -48,6 +49,19 @@
         "href": "/",
         "tagTitle": "datos",
         "text": "Autogestión de Datos personales"
+      }
+    }
+  },
+  "menu-item#footer__menu--about-us":{
+    "props": {
+      "blockClass": "footer-item-open",
+      "id": "footer",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/nuestra-empresa",
+        "tagTitle": "sobre-homecenter",
+        "text": "Sobre nosotros"
       }
     }
   },

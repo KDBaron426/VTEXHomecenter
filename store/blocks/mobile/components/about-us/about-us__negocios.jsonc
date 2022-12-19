@@ -1,0 +1,44 @@
+{
+  "store.custom#negocios": {
+    "title": "En que negocias estamos",
+    "children": [
+      "flex-layout.row#about-us__menu",
+      "flex-layout.row#about-us__negocios"
+    ]
+  },
+  "flex-layout.row#about-us__negocios": {
+    "children": ["flex-layout.col#about-us__negocios"]
+  },
+  "flex-layout.col#about-us__negocios": {
+    "children": [
+      "rich-text#que-negocios-estamos__title",
+      "rich-text#que-negocios-estamos__text-one",
+      "rich-text#que-negocios-estamos__text-two",
+      "rich-text#que-negocios-estamos__text-three"
+    ],
+    "props":{
+      "blockClass":"about-us-section-one"
+    }
+  },
+  "rich-text#que-negocios-estamos__title":{
+    "props":{
+        "text":"**¿En qué negocio estamos?**",
+        "blockClass":"about-us-section-title"
+    }
+  },
+  "rich-text#que-negocios-estamos__text-one": {
+    "props":{
+        "text":"Así como en el negocio de venta al detal (retail) hay farmacias, supermercados, almacenes de ropa, etc. Nosotros somos los líderes en Colombia de una categoría denominada “Mejoramiento del hogar y construcción”. Tenemos dos formatos comerciales que nos permiten atender cualquier requerimiento nuestros clientes en los productos y servicios que se necesitan para construir, remodelar, mejorar su hogar, empresa, oficina, local comercial u otro."
+    }
+  },
+  "rich-text#que-negocios-estamos__text-two": {
+    "props":{
+        "text":"\n- **HOMECENTER**\n  \nLos hogares consideran a Homecenter como el almacén con el mejor surtido de productos y servicios, confiable para llevar a cabo proyectos grandes y pequeños de mejoras a la vivienda.\n \nLa experiencia de compra en la tienda es muy buena pues cuenta con innovación constante, la tienda es agradable y fácil de recorrer, se encuentran los productos que se necesitan fácilmente, con la información pertinente para tomar la decisión y asesores expertos en caso de que sea necesario. Los precios permanecen bajos todo el año gracias a la política de precios bajos siempre. Los clientes cuentan con variedad de medios de financiación facilitando la adquisición de productos para mejorar el hogar, la oficina u otro espacio. En Homecenter más que productos vendemos proyectos completos.\n"
+    }
+  },
+  "rich-text#que-negocios-estamos__text-three": {
+    "props":{
+      "text":"\n- **CONSTRUCTOR**\n \nEs el almacén más fácil de recorrer gracias a su innovador circuito de compra que hace que el especialista, llámese constructor, arquitecto, maestro de obra, electricista, etc., pueda adquirir los materiales que requiere para su trabajo en las cantidades que los necesite sin perder tiempo y con una garantía de precios bajos.\n \nCírculo de Especialistas es el programa de reconocimiento a los clientes de almacenes Constructor. Es un programa exclusivo que permite acceder a beneficios que facilitan el trabajo y mejoran la vida de todos los socios afiliados.\n"
+    }
+  }
+}

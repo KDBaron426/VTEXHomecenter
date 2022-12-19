@@ -1,3 +1,33 @@
-.flexColChild--text-about-us{
+.flexColChild--text-about-us {
     margin: auto 0;
+}
+
+.flexCol--about-us-menu {
+    display         : flex;
+    background-color: white;
+    margin          : 1rem;
+    border          : 1px solid black;
+}
+
+.flexColChild--about-us-menu {
+    border-bottom: 1px solid gray;
+}
+
+.flexCol--about-us-section-one {
+    background-color: white;
+    padding         : 0.5rem;
+    margin          : 1rem;
+}
+
+@media (min-width: 1024px) {
+    .flexCol--about-us-menu {
+        position: absolute;
+        width   : 22% !important;
+        height  : 30%;
+        left    : 1rem;
+    }
+
+    .flexCol--about-us-section-one {
+        margin-left: 20rem;
+    }
 }

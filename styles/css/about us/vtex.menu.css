@@ -1,0 +1,8 @@
+.menuItem--about-us-menu-item--isClosed{
+    border-bottom: 1px solid gray;
+    padding: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+
+}

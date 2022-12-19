@@ -1,0 +1,32 @@
+{
+  "store.custom#servicios": {
+    "title": "About us, servicios de Homecenter",
+    "children": [
+      "flex-layout.row#about-us__menu",
+      "flex-layout.row#about-us__servicios"
+    ]
+  },
+  "flex-layout.row#about-us__servicios": {
+    "children": ["flex-layout.col#about-us__servicios"]
+  },
+  "flex-layout.col#about-us__servicios": {
+    "children": [
+      "rich-text#about-us__servicios-title",
+      "rich-text#about-us__servicios-text"
+    ],
+    "props":{
+      "blockClass":"about-us-section-one"
+    }
+  },
+  "rich-text#about-us__servicios-title": {
+    "props":{
+        "text":"**Servicios**",
+        "blockClass":"about-us-section-title"
+    }
+  },
+  "rich-text#about-us__servicios-text": {
+    "props":{
+        "text":"\nEn SODIMAC acompañamos nuestros formatos con todos los servicios complementarios para hacer su proyecto como instalación de productos, alquiler de herramientas y centro de diseño, entre otros.\n \nAdemás de servicios tenemos servicios adicionales como lista de novias, copiado de llaves, parqueadero, taxis, cajeros automáticos y zona de comidas, venta a empresas se encarga de atender todos los requerimientos en productos y servicios para los clientes empresariales tales como constructores pequeños y medianos, empresas, industrias, instituciones públicas y privadas, fondos de empleados, entidades educativas, comercio y empresas de servicio, entre otras. El cliente nos prefiere por la excelente atención experta sumada a que encuentra precios bajos, despacho a domicilio, impresionante surtido, garantía de productos de primera, garantizando una compra sencilla, rápida, confiable, cumplida y con facilidades de financiación.\n"
+    }
+  }
+}
