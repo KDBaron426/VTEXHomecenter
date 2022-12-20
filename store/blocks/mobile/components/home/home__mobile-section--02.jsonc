@@ -28,13 +28,13 @@
   },
   "image#home__mobile-image--banner-03": {
     "props": {
-      "src": "assets/img/banner_03.png",
+      "src": "arquivos/kdbaron-home__banner-03.png",
       "width": "100%"
     }
   },
   "image#home__mobile-image--banner-04": {
     "props": {
-      "src": "assets/img/banner_04.png",
+      "src": "arquivos/kdbaron-home__banner-04.png",
       "width": "100%"
     }
   }

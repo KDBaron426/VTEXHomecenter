@@ -34,7 +34,7 @@
   "image#logo": {
     "props": {
       "title": "Logo",
-      "src": "assets/img/logo.png",
+      "src": "arquivos/kdbaron-header__logo-homecenter.png",
       "width": "200",
       "height": "30",
       "link": {

@@ -23,27 +23,27 @@
     },
     "image#home__slider-mobile--one": {
       "props": {
-        "src": "arquivos/slider__mobile-01.png"
+        "src": "arquivos/kdbaron-home__main-slider-mobile01.png"
       }
     },
     "image#home__slider-mobile--two": {
       "props": {
-        "src": "arquivos/slider__mobile-02.png"
+        "src": "arquivos/kdbaron-home__main-slider-mobile02.png"
       }
     },
     "image#home__slider-mobile--three": {
       "props": {
-        "src": "arquivos/slider__mobile-03.png"
+        "src": "arquivos/kdbaron-home__main-slider-mobile03.png"
       }
     },
     "image#home__slider-mobile--four": {
       "props": {
-        "src": "arquivos/slider__mobile-04.png"
+        "src": "arquivos/kdbaron-home__main-slider-mobile04.png"
       }
     },
     "image#home__slider-mobile--five": {
       "props": {
-        "src": "arquivos/slider__mobile-05.png"
+        "src": "arquivos/kdbaron-home__main-slider-mobile05.png"
       }
     }
   }

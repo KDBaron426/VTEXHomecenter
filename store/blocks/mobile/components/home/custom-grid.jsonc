@@ -9,25 +9,25 @@
   },
   "image#home__custom-grid-1": {
     "props": {
-      "src": "assets/img/banner__3-01.png",
+      "src": "arquivos/kdbaron-home__banner-3-01.png",
       "width": "100%"
     }
   },
   "image#home__custom-grid-2": {
     "props": {
-      "src":"assets/img/banner__3-02.png",
+      "src":"arquivos/kdbaron-home__banner-3-02.png",
       "width": "100%"
     }
   },
   "image#home__custom-grid-3": {
     "props": {
-      "src":"assets/img/banner__3-03.png",
+      "src":"arquivos/kdbaron-home__banner-3-03.png",
       "width": "100%"
     }
   },
   "image#home__custom-grid-4": {
     "props": {
-      "src":"assets/img/banner__3-04.png",
+      "src":"arquivos/kdbaron-home__banner-3-04.png",
       "width": "100%"
     }
   }

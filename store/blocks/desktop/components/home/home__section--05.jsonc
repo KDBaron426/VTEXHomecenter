@@ -22,7 +22,7 @@
   },
   "image#section__five--muebles":{
     "props":{
-        "src":"assets/img/banner__3-01.png"
+        "src":"arquivos/kdbaron-home__banner-3-01.png"
     }
   },
   "flex-layout.col#section__five--espejos": {
@@ -35,7 +35,7 @@
   },
   "image#section__five--espejos":{
     "props":{
-        "src":"assets/img/banner__3-02.png"
+        "src":"arquivos/kdbaron-home__banner-3-02.png"
     }
   },
   "flex-layout.col#section__five--cerraduras": {
@@ -48,7 +48,7 @@
   },
   "image#section__five--cerraduras":{
     "props":{
-        "src":"assets/img/banner__3-03.png"
+        "src":"arquivos/kdbaron-home__banner-3-03.png"
     }
   },
   "flex-layout.col#section__five--cocina": {
@@ -61,7 +61,7 @@
   },
   "image#section__five--cocina":{
     "props":{
-        "src":"assets/img/banner__3-04.png"
+        "src":"arquivos/kdbaron-home__banner-3-04.png"
     }
   }
 }

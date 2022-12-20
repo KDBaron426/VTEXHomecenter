@@ -21,7 +21,7 @@
   },
   "image#section__four--muebles": {
     "props": {
-      "src": "assets/img/banner__2-01.png"
+      "src": "arquivos/kdbaron-home__banner-2-01.png"
     }
   },
   "flex-layout.col#section__four--celulares": {
@@ -34,7 +34,7 @@
   },
   "image#section__four--celulares": {
     "props": {
-      "src": "assets/img/banner__2-02.png"
+      "src": "arquivos/kdbaron-home__banner-2-02.png"
     }
   },
   "flex-layout.col#section__four--decoracion": {
@@ -47,7 +47,7 @@
   },
   "image#section__four--decoracion": {
     "props": {
-      "src": "assets/img/banner__2-03.png"
+      "src": "arquivos/kdbaron-home__banner-2-03.png"
     }
   }
 }

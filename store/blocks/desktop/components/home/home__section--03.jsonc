@@ -27,7 +27,7 @@
   "image#banner-discount-20": {
     "props": {
       "width": "40%",
-      "src": "assets/img/20.png"
+      "src": "arquivos/kdbaron-home__discount-20.png"
     }
   },
   "rich-text#banner-pisos-title": {
@@ -79,7 +79,7 @@
   "image#banner-discount-35": {
     "props": {
       "width": "40%",
-      "src": "assets/img/35.png"
+      "src": "arquivos/kdbaron-home__discount-35.png"
     }
   },
   "rich-text#banner-autos-title": {
@@ -108,7 +108,7 @@
   "image#banner-discount-40":{
     "props":{
         "width": "40%",
-        "src":"assets/img/40.png"
+        "src":"arquivos/kdbaron-home__discount-40.png"
     }
   },
   "rich-text#banner-aseo-title": {
@@ -137,7 +137,7 @@
   "image#banner-discount-25":{
     "props":{
         "width": "40%",
-        "src":"assets/img/25.png"
+        "src":"arquivos/kdbaron-home__discount-25.png"
     }
   },
   "rich-text#banner-puertas-title": {
@@ -166,7 +166,7 @@
   "image#banner-discount-60":{
     "props":{
         "width": "40%",
-        "src":"assets/img/60.png"
+        "src":"arquivos/kdbaron-home__discount-60.png"
     }
   },
   "rich-text#banner-navidad-title": {

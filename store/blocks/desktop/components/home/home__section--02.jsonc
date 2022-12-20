@@ -27,7 +27,7 @@
   "image#banner-discount-45": {
     "props": {
       "width": "40%",
-      "src": "assets/img/45.png"
+      "src": "arquivos/kdbaron-home__discount-45.png"
     }
   },
   "rich-text#banner-electro-title": {
@@ -56,7 +56,7 @@
   "image#banner-discount-50": {
     "props": {
       "width": "40%",
-      "src": "assets/img/50.png"
+      "src": "arquivos/kdbaron-home__discount-50.png"
     }
   },
   "rich-text#banner-muebles-title": {
@@ -83,7 +83,7 @@
   "image#banner-discount-38": {
     "props": {
       "width": "40%",
-      "src": "assets/img/38.png"
+      "src": "arquivos/kdbaron-home__discount-38.png"
     }
   },
   "rich-text#banner-herramientas-title": {

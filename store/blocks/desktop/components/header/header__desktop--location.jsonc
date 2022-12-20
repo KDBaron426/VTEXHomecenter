@@ -14,7 +14,7 @@
     },
     "image#desktop__info--locations":{
         "props": {
-            "src": "assets/img/banner__location.png"
+            "src": "arquivos/kdbaron-header__banner-location.png"
           }
     }
 }

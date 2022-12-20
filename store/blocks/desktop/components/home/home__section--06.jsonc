@@ -16,7 +16,7 @@
   },
   "image#section__six-banner": {
     "props":{
-        "src":"assets/img/banner__4-01.png"
+        "src":"arquivos/kdbaron-home__banner-4-01.png"
     }
   },
   "flex-layout.col#section__six-banner-two": {
@@ -28,7 +28,7 @@
   },
   "image#section__six-banner-two": {
     "props":{
-        "src":"assets/img/banner__4-02.png"
+        "src":"arquivos/kdbaron-home__banner-4-02.png"
     }
   }
 }
