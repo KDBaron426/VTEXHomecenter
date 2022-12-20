@@ -20,7 +20,7 @@
         "props":{
             "width": "40%",
             "heigt":"0",
-            "src":"assets/img/homencenter_icon.jpg"
+            "src":"assets/img/header__logo-homencenter.jpg"
         }
     },
     "rich-text#footer__copyright--text":{

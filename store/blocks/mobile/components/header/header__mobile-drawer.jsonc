@@ -438,7 +438,7 @@
     "props":{
       "width":"5%",
       "blockClass":"drawer-cmr-image-style",
-      "src":"assets/img/logo-cmr-puntos.png"
+      "src":"assets/img/header__logo-cmr-puntos.png"
     }
   },
   "menu-item#mobile-buy": {

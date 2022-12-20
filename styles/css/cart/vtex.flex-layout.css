@@ -58,7 +58,7 @@
     background-color: white;
     padding         : 1rem;
     margin-left     : 1rem;
-    width: 60rem;
+    width           : 60rem;
 }
 
 .flexCol--cart-content-resumen {
@@ -69,22 +69,23 @@
 
 @media screen and (max-width: 900px) {
     .flexRowContent--breadcrumb-line {
-        width          : 23rem;
-        margin-left    : 1rem;
-    }
-    .flexRowContent--breadcrumb-circle {
-        margin-left     : 0.5rem;
-    }
-    
-    .flexRowContent--breadcrumb-circle-two {
-        margin-left     : 11.5rem;
-    }
-    
-    .flexRowContent--breadcrumb-circle-three {     
-        margin-left     : 22.5rem;
+        width      : 23rem;
+        margin-left: 1rem;
     }
 
-    .flexRowContent--text-container{
+    .flexRowContent--breadcrumb-circle {
+        margin-left: 0.5rem;
+    }
+
+    .flexRowContent--breadcrumb-circle-two {
+        margin-left: 11.5rem;
+    }
+
+    .flexRowContent--breadcrumb-circle-three {
+        margin-left: 22.5rem;
+    }
+
+    .flexRowContent--text-container {
         display: flex;
     }
 }
