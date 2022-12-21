@@ -32,7 +32,7 @@
     font-size: 20px;
 }
 
-.flexRowContent--product__info-card{
+.flexRowContent--product__info-card {
     padding: 0;
 }
 
@@ -49,6 +49,11 @@
     width: 100px !important;
 }
 
-.flexColChild--product__info-card-link{
+.flexColChild--product__info-card-link {
     margin-top: 3rem;
+}
+
+.flexRowContent--product__info-products-text {
+    margin-left: 12rem;
+    font-size: 20px;
 }
