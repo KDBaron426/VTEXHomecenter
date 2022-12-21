@@ -6,6 +6,19 @@ The creation of this template is merely for educational use, since with the grow
 
 Currently the page has its showcase and pdp page, where the user can filter the products by departments and brands, personalized pages that talk about Homecenter and a page before checkout to see all the products added to the cart.
 
+
+## - Home Page, Slider and Header
+![ImageofTheHomecenter](../assets/img/readme__img-of-example.png)
+
+## - Menu
+![menu](../assets/img/readme__img-of-example-menu.png)
+
+## - Search by SKU
+![SkuSearch](../assets/img/readme__img-of-example-two.png)
+
+## - Search by categories and footer
+![CategoriesSearch](../assets/img/readme__img-of-example-three.png)
+
 To create a new store theme without pre-set configurations, the following repository should be used: [Store Theme](https://github.com/vtex-apps/store-theme). 
 
 ## Configuration

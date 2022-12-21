@@ -19,7 +19,6 @@
       "flex-layout.row#home__section--nine",
       "flex-layout.row#home__section--ten",
       "flex-layout.row#department-search",
-      "flex-layout.row#home__section--options",
       "flex-layout.row#terms-and-conditions"
     ]
   },
