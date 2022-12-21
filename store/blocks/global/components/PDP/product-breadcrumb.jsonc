@@ -3,7 +3,10 @@
         "title":"navigation of the products",
         "children":[
           "flex-layout.col#product__breadcrumb"
-        ]
+        ],
+        "props":{
+          "blockClass":"product__breadcrumb"
+        }
       },
       "flex-layout.col#product__breadcrumb":{
         "children":[

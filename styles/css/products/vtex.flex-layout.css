@@ -2,3 +2,20 @@
     background-color: white;
     padding         : 1rem;
 }
+
+.flexRow--product__info-container {
+    background-color: white;
+    padding-top     : 2rem;
+    padding-right   : 2rem;
+    margin-bottom   : 1rem;
+}
+
+.flexColChild--product__info-image {
+    padding-top: 2rem;
+}
+
+.flexRowContent--product__tabs {
+    margin-top      : -1rem;
+    background-color: white;
+    padding         : 1rem;
+}

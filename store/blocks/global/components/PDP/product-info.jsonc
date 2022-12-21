@@ -4,13 +4,19 @@
     "children": [
       "flex-layout.col#product__info--image",
       "flex-layout.col#product__info--data"
-    ]
+    ],
+    "props":{
+      "blockClass":"product__info-container"
+    }
   },
   "flex-layout.col#product__info--image": {
     "title":"Imagenes de PDP",
     "children":[
         "product-images#product__info--image"
-    ]
+    ],
+    "props":{
+      "blockClass":"product__info-image"
+    }
   },
   "product-images#product__info--image":{
     "title":"Imagenes",
