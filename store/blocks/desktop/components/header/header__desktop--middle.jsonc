@@ -74,7 +74,7 @@
   },
   "modal-layout#header__top--login":{
     "children":[
-      "login-content"
+      "login-content#default"
     ]
   }
 }
