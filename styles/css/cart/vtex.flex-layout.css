@@ -1,0 +1,91 @@
+.flexRowContent--breadcrumb-line {
+    width          : 64rem;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    border-top     : 5px solid gray;
+    padding-top    : 15px;
+    margin-top     : 55px;
+    margin-left    : 15rem;
+}
+
+.flexRowContent--breadcrumb-circle {
+    background-color: white;
+    font-weight     : bold;
+    color           : rgb(0, 110, 255);
+    border          : 3px solid rgb(0, 110, 255);
+    margin-top      : -34px;
+    margin-left     : 14rem;
+    width           : 30px;
+    height          : 30px;
+    line-height     : 30px;
+    text-align      : center;
+    border-radius   : 50%;
+    z-index         : 99;
+}
+
+.flexRowContent--breadcrumb-circle-two {
+    background-color: gray;
+    font-weight     : bold;
+    color           : gray;
+    border          : 3px solid gray;
+    margin-top      : -34px;
+    margin-left     : 46rem;
+    width           : 30px;
+    height          : 30px;
+    line-height     : 30px;
+    text-align      : center;
+    border-radius   : 50%;
+    z-index         : 99;
+}
+
+.flexRowContent--breadcrumb-circle-three {
+    background-color: gray;
+    font-weight     : bold;
+    color           : gray;
+    border          : 3px solid gray;
+    margin-top      : -34px;
+    margin-left     : 78rem;
+    width           : 30px;
+    height          : 30px;
+    line-height     : 30px;
+    text-align      : center;
+    border-radius   : 50%;
+    z-index         : 99;
+}
+
+.flexCol--cart-content-items {
+    background-color: white;
+    padding         : 1rem;
+    margin-left     : 1rem;
+    width           : 60rem;
+}
+
+.flexCol--cart-content-resumen {
+    background-color: white;
+    padding         : 1rem;
+    margin-left     : 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .flexRowContent--breadcrumb-line {
+        width      : 23rem;
+        margin-left: 1rem;
+    }
+
+    .flexRowContent--breadcrumb-circle {
+        margin-left: 0.5rem;
+    }
+
+    .flexRowContent--breadcrumb-circle-two {
+        margin-left: 11.5rem;
+    }
+
+    .flexRowContent--breadcrumb-circle-three {
+        margin-left: 22.5rem;
+    }
+
+    .flexRowContent--text-container {
+        display: flex;
+    }
+}

@@ -1,0 +1,53 @@
+{
+  "flex-layout.row#home__section--four": {
+    "title": "Banners quarter section",
+    "children": [
+      "flex-layout.col#section__four--muebles",
+      "flex-layout.col#section__four--celulares",
+      "flex-layout.col#section__four--decoracion"
+    ],
+    "props": {
+      "colGap": 3,
+      "blockClass": "home__section--four"
+    }
+  },
+  "flex-layout.col#section__four--muebles": {
+    "children": ["image#section__four--muebles"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "home__section--image-banner"
+    }
+  },
+  "image#section__four--muebles": {
+    "props": {
+      "src": "arquivos/kdbaron-home__banner-2-01.png"
+    }
+  },
+  "flex-layout.col#section__four--celulares": {
+    "children": ["image#section__four--celulares"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "home__section--image-banner"
+    }
+  },
+  "image#section__four--celulares": {
+    "props": {
+      "src": "arquivos/kdbaron-home__banner-2-02.png"
+    }
+  },
+  "flex-layout.col#section__four--decoracion": {
+    "children": ["image#section__four--decoracion"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "home__section--image-banner"
+    }
+  },
+  "image#section__four--decoracion": {
+    "props": {
+      "src": "arquivos/kdbaron-home__banner-2-03.png"
+    }
+  }
+}

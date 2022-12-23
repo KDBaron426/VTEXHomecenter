@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#footer__social": {
+    "children": ["flex-layout.col#footer__social"],
+    "props": {
+      "blockClass": "footer-socialNetworks"
+    }
+  },
+  "flex-layout.col#footer__social": {
+    "children": ["social-networks"]
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://www.facebook.com/homecentercolombia/",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://www.instagram.com/homecenter_co/",
+          "name": "Instagram"
+        },
+        { "url": "https://twitter.com/Homecenter_co", "name": "Twitter" },
+        {
+          "url": "https://www.youtube.com/c/homecentercolombia/videos",
+          "name": "Youtube"
+        },
+        {
+          "url": "https://co.pinterest.com/homecentercol/",
+          "name": "Pinterest"
+        }
+      ]
+    }
+  }
+}

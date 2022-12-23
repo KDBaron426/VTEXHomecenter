@@ -1,0 +1,51 @@
+{
+  "list-context.bullet-group#discount__two": {
+    "title": "Bullet en descuento numero dos",
+    "children": ["slider-layout#bullet-group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "arquivos/banner__descount-07.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-08.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-09.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-10.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-11.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-12.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  }}

@@ -1,0 +1,16 @@
+
+{
+    "header": {
+      "title":"Contenedor de header global",
+      "blocks": [
+        "header-layout.desktop",
+        "header-layout.mobile"
+      ]
+    },
+    "header.full": {
+      "blocks": [
+        "header-layout.desktop",
+        "header-layout.mobile"
+      ]
+    }
+  }

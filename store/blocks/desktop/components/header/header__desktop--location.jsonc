@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#desktop--location":{
+        "title":"Header location",
+        "props":{
+            "blockClass":"location-info",
+            "horizontalAlign":"center",
+            "preventHorizontalStretch":true,
+            "preventVerticalStretch":true,
+            "fullWidth": true
+        },
+        "children":[
+            "image#desktop__info--locations"
+        ]
+    },
+    "image#desktop__info--locations":{
+        "props": {
+            "src": "arquivos/kdbaron-header__banner-location.png"
+          }
+    }
+}

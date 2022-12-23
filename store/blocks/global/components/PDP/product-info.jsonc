@@ -1,0 +1,126 @@
+{
+  "flex-layout.row#product__info": {
+    "title": "Informacion general de PDP",
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ],
+    "props": {
+      "blockClass": "product__info-container"
+    }
+  },
+  "flex-layout.col#product__info--image": {
+    "title": "Imagenes de PDP",
+    "children": [
+      "product-images#product__info--image",
+      "flex-layout.row#product__tabs"
+    ],
+    "props": {
+      "blockClass": "product__info-image"
+    }
+  },
+  "product-images#product__info--image": {
+    "title": "Imagenes",
+    "props": {
+      "zoomMode": "open-modal"
+    }
+  },
+  "flex-layout.col#product__info--data": {
+    "title": "Data del producto",
+    "children": [
+      "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
+      "product-rating-inline",
+      "product-description",
+      "product-price",
+      "flex-layout.row#product__info--card",
+      "product-quantity",
+      "add-to-cart-button#custom-btn",
+      "rich-text#product__promo-info",
+      "modal-trigger#add-to-cart-info",
+      "shipping-simulator"
+    ],
+    "props": {
+      "blockClass": "product__info-data"
+    }
+  },
+  "rich-text#product__promo-info": {
+    "title": "texto adicional del producto",
+    "props": {
+      "text": ""
+    }
+  },
+  "modal-trigger#add-to-cart-info": {
+    "children": ["modal-layout#add-to-cart-info"],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info": {
+    "children": ["modal-header#add-to-cart-info", "add-to-cart-info"]
+  },
+  "modal-header#add-to-cart-info": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 24
+    }
+  },
+  "add-to-cart-button#custom-btn": {
+    "props": {
+      "blockClass": "product__info-add-to-cart"
+    }
+  },
+  "flex-layout.row#product__info--card": {
+    "children": [
+      "flex-layout.col#product__info--card-img",
+      "flex-layout.col#product__info--card-text",
+      "flex-layout.col#product__info--card-link"
+    ],
+    "props": {
+      "blockClass":"product__info-card",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#product__info--card-img": {
+    "children": [
+      "image#product__info--card-img"
+    ],
+    "props": {
+      "blockClass":"product__info-card-img",
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#product__info--card-text":{
+    "children":[
+      "rich-text#product__info--card-text"
+    ],
+    "props":{
+      "blockClass":"product__info-card-text"
+    }
+  },
+  "flex-layout.col#product__info--card-link":{
+    "children":[
+      "link.product#product__info--get-card"
+    ],
+    "props":{
+      "blockClass":"product__info-card-link"
+    }
+  },
+  "image#product__info--card-img": {
+    "props": {
+      "src": "https://www.falabella.com.co/static/RDF/site/minisitios/Beneficios/CambiosyDevoluciones/assets/cmrCard.png",
+      "maxHeight": 40
+    }
+  },
+  "rich-text#product__info--card-text": {
+    "props": {
+      "text": "**Pide tu Tarjeta de Crédito 100% online** \nObtén un bono de $45.000 para tu primera compra\n"
+    }
+  },
+  "link.product#product__info--get-card": {
+    "props": {
+      "label": "Solicítala aquí"
+    }
+  }
+}

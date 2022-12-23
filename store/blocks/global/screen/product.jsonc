@@ -1,0 +1,28 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product__breadcrumb",
+      "flex-layout.row#product__info",
+      "flex-layout.row#product__info-products-text",
+      "flex-layout.row#product__info-products"
+    ]
+  },
+  "flex-layout.row#product__info-products-text":{
+    "children":[
+      "flex-layout.col#product__info-products-text"
+    ],
+    "props":{
+      "blockClass":"product__info-products-text"
+    }
+  },
+  "flex-layout.col#product__info-products-text":{
+    "children":[
+      "rich-text#product__info-products-text"
+    ]
+  },
+  "rich-text#product__info-products-text":{
+    "props":{
+      "text":"**Productos Similares**"
+    }
+  }
+}

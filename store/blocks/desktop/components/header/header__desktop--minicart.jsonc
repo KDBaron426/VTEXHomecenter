@@ -1,0 +1,14 @@
+{
+    "product-list-content-desktop":{
+        "title":"desktop minicart header",
+        "children":[
+            "flex-layout.row#minicart__row--desktop"
+        ]
+    },
+    "flex-layout.row#minicart__row--desktop":{
+        "children":[
+            "flex-layout.col#minicart__col--image",
+            "flex-layout.col#minicart__col--info"
+        ]
+    }
+}

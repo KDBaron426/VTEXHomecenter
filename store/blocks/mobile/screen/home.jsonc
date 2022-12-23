@@ -1,0 +1,38 @@
+{
+  "responsive-layout.mobile": {
+    "title":"Contenedor home de mobile",
+    "children": [
+      "image#home__location--mobile",
+      "slider-layout#home__slider-mobile--children",
+      "flex-layout.row#home__section-mobile--one",
+      "flex-layout.row#home__section-mobile--two",
+      "list-context.bullet-group#discount__one",
+      "list-context.bullet-group#discount__two",
+      "quick-order",
+      "flex-layout.row#home__section--four",
+      "custom-grid",
+      "flex-layout.row#home__shelf--one",
+      "flex-layout.row#home__section--nine",
+      "flex-layout.row#home__section--ten",
+      "flex-layout.row#department-search",
+      "list-context.bullet-group#discount__one",
+      "list-context.bullet-group#discount__two",
+      "flex-layout.row#terms-and-conditions"
+    ]
+  },
+  "image#home__location--mobile": {
+    "props": {
+      "width": "100%",
+      "src": "assets/img/banner__location--mobile.png"
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemsPerPage": {
+        "phone": 2,
+        "tablet": 2
+      },
+      "infinite": true
+    }
+  }
+}

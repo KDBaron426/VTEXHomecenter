@@ -1,0 +1,25 @@
+{
+  "header-layout.desktop": {
+    "title":"contenedor header global",
+    "children": [
+      "flex-layout.row#desktop--info",
+      "sticky-layout#desktop",
+      "flex-layout.row#desktop--menu"
+      // "search-result-layout.customQuery#home__search"
+    ]
+  },
+  "search-result-layout.customQuery#home__search":{
+    "props":{
+      "querySchema":{
+        "skusFilter":"ALL"
+      }
+    },
+    "blocks":[
+      "search-result-layout.desktop#home__search--desktop",
+      "search-not-found-layout"
+    ]
+  },
+  "search-not-found-layout":{
+
+  }
+}

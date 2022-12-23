@@ -1,0 +1,49 @@
+{
+    "slider-layout#home__slider-desktop--children": {
+      "title": "Slider con hijos declarados",
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "home__slider",
+        "autoplay": {
+          "timeout": 3000,
+          "stopOnHover": true
+        }
+      },
+      "children": [
+        "image#home__slider--one",
+        "image#home__slider--two",
+        "image#home__slider--three",
+        "image#home__slider--four",
+        "image#home__slider--five"
+      ]
+    },
+    "image#home__slider--one": {
+      "props": {
+        "src": "arquivos/kdbaron-home__main-slider01.png"
+      }
+    },
+    "image#home__slider--two": {
+      "props": {
+        "src": "arquivos/kdbaron-home__main-slider02.png"
+      }
+    },
+    "image#home__slider--three": {
+      "props": {
+        "src": "arquivos/kdbaron-home__main-slider03.png"
+      }
+    },
+    "image#home__slider--four": {
+      "props": {
+        "src": "arquivos/kdbaron-home__main-slider04.png"
+      }
+    },
+    "image#home__slider--five": {
+      "props": {
+        "src": "arquivos/kdbaron-home__main-slider05.png"
+      }
+    }
+  }

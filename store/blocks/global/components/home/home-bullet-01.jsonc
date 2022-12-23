@@ -1,0 +1,50 @@
+{"list-context.bullet-group#discount__one": {
+    "title": "Bullet en descuento",
+    "children": ["slider-layout#bullet-group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "arquivos/banner__descount-01.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-02.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-03.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/varilla"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-04.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/ladrillo"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-05.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/cemento"
+          }
+        },
+        {
+          "image": "arquivos/banner__descount-06.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/queso"
+          }
+        }
+      ]
+    }
+  }}

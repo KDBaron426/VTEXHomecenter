@@ -1,0 +1,80 @@
+{
+  "sticky-layout#desktop": {
+    "title": "Menu middle",
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#desktop"]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#search-desktop",
+      "minicart.v2#custom",
+      "modal-trigger#header__top--login"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "title": "logo",
+    "props": {
+      "blockClass": "logo-desktop",
+      "verticalAlign": "middle",
+      "href": "/"
+    },
+    "children": ["image#logo"]
+  },
+  "image#logo": {
+    "props": {
+      "title": "Logo",
+      "src": "arquivos/kdbaron-header__logo-homecenter.png",
+      "width": "200",
+      "height": "30",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "flex-layout.col#search-desktop": {
+    "title": "search bar",
+    "props": {
+      "blockClass": "search-desktop",
+      "verticalAlign": "middle"
+    },
+    "children": ["search-bar"]
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "placeholder": "¿Qué estás buscando?",
+      "openAutocompleteOnFocus": true
+    }
+ },
+  "modal-trigger#header__top--login":{
+    "children":[
+      "rich-text#header__top--login",
+      "modal-layout#header__top--login"
+    ],
+    "props":{
+      "blockClass": "login-middle"
+    }
+  },
+  "rich-text#header__top--login":{
+    "props":{
+      "blockClass":"my-account",
+      "text":"Mi Cuenta"
+    }
+  },
+  "modal-layout#header__top--login":{
+    "children":[
+      "login-content#default"
+    ]
+  }
+}

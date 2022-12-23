@@ -1,0 +1,145 @@
+.flexRow--home__section--one {
+  width  : 70%;
+  margin : 0 auto;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.flexRowContent--home__section--one {
+  justify-content: center;
+}
+
+.flexColChild--home__section--image-banner:hover {
+  transition: .2s;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.flexRow--home__section--two {
+  width  : 75%;
+  margin : 0 auto;
+  padding: 1.5rem 0 0 2rem;
+}
+
+.flexColChild--banner-two {
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  margin-bottom  : -1rem;
+}
+
+.flexCol--banner-two {
+  background-color: white;
+  justify-content : center;
+  align-items     : center;
+  padding         : 1rem;
+}
+
+.flexCol--banner-two:hover {
+  transition: .2s;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.wrapper--home__section--two-banner-title {
+  text-align: center;
+}
+
+.flexRow--home__section--three {
+  width  : 75%;
+  margin : 0 auto;
+  padding: 1.5rem 0 0 2rem;
+}
+
+.flexRow--home__section--four {
+  width  : 70%;
+  margin : 0 auto;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.container--home__section--two-banner-title {
+  color: rgb(32, 125, 232);
+}
+
+.flexRow--home__section--five {
+  width  : 70%;
+  margin : 0 auto;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.flexRow--promo__banner {
+  background-color: white !important;
+  max-width       : 70%;
+  padding         : 1.5rem 0;
+  margin          : 0 auto;
+}
+
+.flexRowContent--promo__banner {
+  gap: 3rem;
+}
+
+.flexRow--home__section--six {
+  width         : 70%;
+  margin        : 0 auto;
+  padding-top   : 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.flexRow--home__section--seven {
+  width         : 70%;
+  margin        : 0 auto;
+  padding-bottom: 2rem;
+}
+
+.flexRowContent--home__section-mobile-one {
+  margin         : 0 auto;
+  padding        : 3rem 0 0 0;
+  display        : flex;
+  justify-content: center;
+}
+
+.flexRowContent--home__section-mobile-two {
+  margin         : 0 auto;
+  padding        : 0.3rem 0 0 0;
+  display        : flex;
+  justify-content: center;
+}
+
+.flexColChild--slider-discount {
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  margin-bottom  : -1rem;
+}
+
+.flexCol--slider-discount {
+  background-color: white;
+  justify-content : center;
+  align-items     : center;
+  padding         : 1rem;
+  width           : 50% !important;
+  margin-top      : 1rem;
+}
+
+.flexCol--slider-discount:hover {
+  transition: .2s;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media (max-width: 1024px) {
+  .flexRow--promo__banner {
+    max-width: 95%;
+    margin   : 0 auto;
+    padding  : 2rem 0;
+  }
+
+  .flexRow--home__section--four {
+    width  : 90%;
+    margin : 1rem auto;
+    padding: 1.5rem 0 1.5rem 0;
+  }
+
+  .flexRow--home__section--six {
+    width  : 95%;
+    margin : 0 auto;
+    padding: 0;
+    gap    : 10;
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "store.custom#donde-venimos": {
+    "title": "About us de donde venimos",
+    "children": [
+      "flex-layout.row#about-us__menu",
+      "flex-layout.row#de-donde-venimos__historia",
+      "flex-layout.row#de-donde-venimos__botones"
+    ]
+  },
+  "flex-layout.row#de-donde-venimos__historia": {
+    "children": ["flex-layout.col#de-donde-venimos__historia"]
+  },
+  "flex-layout.row#de-donde-venimos__botones": {
+    "children": ["flex-layout.col#de-donde-venimos__botones"]
+  },
+  "flex-layout.col#de-donde-venimos__historia": {
+    "children": [
+      "rich-text#de-donde-venimos__title",
+      "image#de-donde-venimos",
+      "rich-text#de-donde-venimos__text",
+      "image#de-donde-venimos__corona",
+      "rich-text#de-donde-venimos__historia",
+      "rich-text#de-donde-venimos__numerado"
+    ],
+    "props":{
+      "blockClass":"about-us-section-one"
+    }
+  },
+  "flex-layout.col#de-donde-venimos__botones": {
+    "children": [
+      "image#de-donde-venimos__sodimac",
+      "image#de-donde-venimos__falabella"
+    ],
+    "props":{
+      "blockClass":"about-us-section-one"
+    }
+  },
+  "rich-text#de-donde-venimos__title": {
+    "props": {
+      "text": "**De dónde venimos**",
+      "blockClass":"about-us-section-title"
+    }
+  },
+  "image#de-donde-venimos": {
+    "props": {
+      "src": "https://www.revistaequipar.com/admin/img/secciones/1443HomecenterFinal4.jpg"
+    }
+  },
+  "rich-text#de-donde-venimos__text": {
+    "props": {
+      "text": "\nSodimac Colombia es una empresa internacional 51% de la organización Corona y 49% de la organización Falabella de chile. Se estableció en Colombia en 1993 con la apertura de su primer almacén, HOMECENTER Américas “el especialista”. A partir de este momento SODIMAC COLOMBIA arranca su expansión como una gran cadena dedicada al mejoramiento del hogar en el país. Nuestro socio Corona tiene más de 125 años de historia empresarial, primero en Colombia y hoy con presencia internacional. Produce principalmente: loza, porcelana sanitaria y cerámica, grifería y materias primas para la industria cerámica. Exporta a 37 países. Adicionalmente tiene operaciones de venta al detal (retail) con los almacenes Corona y con su participación en Sodimac Colombia. En su internacionalización cuenta con plantas en Estados Unidos y oficinas en China. Corona se destaca por su avanzada gestión estratégica, administrativa y por tener una cultura centrada en total respeto por la gente y su desarrollo.\n Corona es uno de los grupos económicos más grandes y tradicionales de Colombia."
+    }
+  },
+  "image#de-donde-venimos__corona": {
+    "props": {
+      "src": "https://www.homecenter.com.co/static/landing/footer/mashomecenter/nuestra-empresa/img/coronaqs.png"
+    }
+  },
+  "rich-text#de-donde-venimos__historia": {
+    "props": {
+      "text": "Sodimac Chile tiene más de cincuenta años de vida empresarial iniciándose como una cooperativa abastecedora de materiales de construcción en Valparaíso en Chile. A finales de los ochentas inicia con el formato Homecenter inaugurando su primer almacén en Santiago de chile, almacén “Los Condes”. De forma paralela los locales de abasto para constructores evolucionan en lo que conocemos como patios Constructor. A raíz de la llegada de Home Depot a chile, el concepto se modifica creando los Super Homecenter compuestos del Homecenter más el patio Constructor. Adicionalmente la venta mayorista a constructores y empresas se consolida como el tercer formato comercial denominado Venta a empresas. En el 2003 a raíz de la salida de Home Depot de Chile, los viejos Home Depot transformados en Homestore (propiedad de Falabella , se fusionan con Sodimac Chile para crear un gigante del retail a escala latinoamericana. La Organización resultante, Falabella, queda entonces con cinco negocios principales."
+    }
+  },
+  "rich-text#de-donde-venimos__numerado": {
+    "props": {
+      "text": "1. Los almacenes por departamento. \n2. Los supermercados e Hipermercados.\n \n3. El negocio de retail financiero compuesto por la tarjeta CMR, los seguros, los viajes y el Banco Falabella.\n \n4. Los centros comerciales MALL PLAZA.\n \n5. y la organización SODIMAC orientada al mercado profesional, empresarial y del hogar.\n \nFALLABELA tiene presencia en Chile, Argentina, Perú y Colombia. Adicionalmente tienen más de 120 años de existencia.\n"
+    }
+  },
+  "image#de-donde-venimos__sodimac": {
+    "props": {
+      "src": "https://www.homecenter.com.co/static/landing/footer/mashomecenter/nuestra-empresa/img/sodimacqs.png",
+      "link": {
+        "url": "https://sodimac.falabella.com/sodimac-cl"
+      }
+    }
+  },
+  "image#de-donde-venimos__falabella": {
+    "props": {
+      "src": "https://www.homecenter.com.co/static/landing/footer/mashomecenter/nuestra-empresa/img/falabellaqs.png",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co"
+      }
+    }
+  }
+}

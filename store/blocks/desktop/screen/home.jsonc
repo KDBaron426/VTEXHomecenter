@@ -1,0 +1,100 @@
+{
+  "responsive-layout.desktop": {
+    "title":"Contenedor home de escritorio",
+    "children": [
+      "whatsapp-button",
+      "flex-layout.row#desktop--location",
+      "slider-layout#home__slider-desktop--children",
+      "flex-layout.row#home__section--one",
+      "flex-layout.row#home__section--two",
+      "flex-layout.row#home__section--three",
+      "quick-order",
+      "flex-layout.row#home__section--four",
+      "flex-layout.row#home__section--five",
+      "flex-layout.row#home__shelf--one",
+      "flex-layout.row#home__section--six",
+      "flex-layout.row#home__section--seven",
+      "flex-layout.row#home__shelf--one",
+      "flex-layout.row#home__section--eight",
+      "flex-layout.row#home__section--nine",
+      "flex-layout.row#home__section--ten",
+      "flex-layout.row#department-search",
+      "flex-layout.row#terms-and-conditions"
+    ]
+  },
+  "whatsapp-button": {
+    "title": "Boton de whatsapp",
+    "props": {
+      "logo": "https://www.unipile.com/wp-content/uploads/2022/02/icone-logo-whatsapp-vert.png",
+      "phone": "123456789",
+      "message": "Estás comunicándote con Homecenter, por favor ingresa tu duda."
+    }
+  },
+  "flex-layout.row#terms-and-conditions": {
+    "children": ["flex-layout.col#terms-and-conditions"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "home-conditions"
+    }
+  },
+  "flex-layout.col#terms-and-conditions": {
+    "title":"Contenedor terminos y condiciones",
+    "children": [
+      "rich-text#terms-and-conditions-title",
+      "rich-text#terms-and-conditions-one",
+      "rich-text#terms-and-conditions-two",
+      "rich-text#terms-and-conditions-three",
+      "rich-text#terms-and-conditions-four",
+      "rich-text#terms-and-conditions-five"
+    ],
+    "props": {
+      "width": "70%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 0
+    }
+  },
+  "rich-text#terms-and-conditions-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "paddingBottom": 0,
+      "text": "**Black Friday del 3 de Noviembre al 2 de Diciembre 2022**"
+    }
+  },
+  "rich-text#terms-and-conditions-one": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Disfruta de los mejores precios en los Black Days que tenemos para ti, hasta agotar existencias. Todas las ofertas pubicadas en Homecenter.co, APP Homecenter y Pantallas digitales en tiendas están sujertas a Términos y Condiciones."
+    }
+  },
+  "rich-text#terms-and-conditions-two": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Todas las ofertas en categorías y productos aplican en referencias seleccionadas y están sujetas a disponibilidad de inventario por tienda y ciudad. Compras a través de Homecenter.co, APP Homecenter, Contact center y Pantallas Digitales en tiendas."
+    }
+  },
+  "rich-text#terms-and-conditions-three": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Hemos Actualizado nuestra Política de Protección de Datos Personales que puedes conocer o consultar ingresando Aquí."
+    }
+  },
+  "rich-text#terms-and-conditions-four": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "1.) CAMPAÑA PREVENTIVA DE SEGURIDAD: Calentador de Agua de paso a Gas marca VOLKER. Consulta Aquí"
+    }
+  },
+  "rich-text#terms-and-conditions-five": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "2.) Cualquier consulta sobre la resolución 32209 de 2020 correspondiente a productos pre empacados la puede realizar el aviso completo en notificacionesjudiciales@homecenter.co"
+    }
+  }
+}

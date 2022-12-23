@@ -1,0 +1,11 @@
+{
+    "header-layout.mobile": {
+      "title": "Mobile header",
+      "props": {
+        "blockclass": "header-mobile"
+      },
+      "children": [
+        "sticky-layout#1-mobile"
+      ]
+    }
+  }

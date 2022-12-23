@@ -1,0 +1,9 @@
+{
+    "responsive-layout.desktop#about-us":{
+        "title": "About us para desktop",
+        "children": [
+            "flex-layout.row#about-us__menu",
+            "flex-layout.row#about-us__our-work"
+        ]
+    }
+}

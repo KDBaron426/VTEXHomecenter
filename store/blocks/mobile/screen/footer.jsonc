@@ -1,0 +1,30 @@
+{
+  "footer-layout.mobile": {
+    "title":"Contenedor footer de mobile",
+    "children": [
+      "menu#footer__menu--group",
+      "flex-layout.row#footer__social",
+      "flex-layout.row#footer__link",
+      "flex-layout.row#footer__copyright"
+    ],
+    "props": {
+      "blockClass": "menu-footer-mobile"
+    }
+  },
+  "flex-layout.row#footer__link": {
+    "children": ["flex-layout.col#footer__link"],
+    "props": {
+      "blockClass": "footer-link-btn"
+    }
+  },
+  "flex-layout.col#footer__link": {
+    "children": ["link#footer__link--btn"]
+  },
+  "link#footer__link--btn": {
+    "props": {
+      "href": "/",
+      "label": "Servicio al cliente",
+      "displayMode": "button"
+    }
+  }
+}

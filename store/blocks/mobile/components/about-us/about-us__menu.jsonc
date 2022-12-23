@@ -1,0 +1,90 @@
+{
+  "flex-layout.row#about-us__menu": {
+    "title":"about us menu",
+    "children": ["flex-layout.col#about-us__menu"]
+  },
+  "flex-layout.col#about-us__menu": {
+    "children": ["rich-text#quienes-somos", "vtex.menu@2.x:menu#about-us"],
+    "props":{
+      "blockClass":"about-us-menu"
+    }
+  },
+  "rich-text#quienes-somos": {
+    "props": {
+      "text": "**Quienes Somos**",
+      "blockClass":"about-us-menu-item-title"
+    }
+  },
+  "vtex.menu@2.x:menu#about-us": {
+    "children": [
+      "menu-item#nuestra-empresa",
+      "menu-item#donde-venimos",
+      "menu-item#negocio",
+      "menu-item#servicios"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "about-us-menu"
+    }
+  },
+  "menu-item#nuestra-empresa": {
+    "props": {
+      "id": "menu-item-empresa",
+      "blockClass":"about-us-menu-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestra-empresa",
+        "noFollow": false,
+        "tagTitle": "Nuestra empresa",
+        "text": "Nuestra empresa"
+      }
+    }
+  },
+  "menu-item#donde-venimos": {
+    "props": {
+      "id": "menu-item-de-donde-venimos",
+      "blockClass":"about-us-menu-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestra-empresa/de-donde-venimos",
+        "noFollow": false,
+        "tagTitle": "¿De dónde venimos?",
+        "text": "¿De dónde venimos?"
+      }
+    }
+  },
+  "menu-item#negocio": {
+    "props": {
+      "id": "menu-item-negocio",
+      "blockClass":"about-us-menu-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestra-empresa/en-que-negocios-estamos",
+        "noFollow": false,
+        "tagTitle": "¿En qué negocio estamos?",
+        "text": "¿En qué negocio estamos?"
+      }
+    }
+  },
+  "menu-item#servicios": {
+    "props": {
+      "id": "menu-item-servicios",
+      "blockClass":"about-us-menu-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestra-empresa/servicios",
+        "noFollow": false,
+        "tagTitle": "Servicios",
+        "text": "Servicios"
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#home__section--nine": {
+    "title": "Banners ninth section",
+    "children": [
+      "flex-layout.col#section__nine-banner",
+      "flex-layout.col#section__nine-banner-two"
+    ],
+    "props": { "colGap": 3,"blockClass": "home__section--six" }
+  },
+  "flex-layout.col#section__nine-banner": {
+    "children": ["image#section__nine-banner"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "image#section__nine-banner":{
+    "props":{
+        "src":"arquivos/kdbaron-home__banner-7-01.png"
+    }
+  },
+  "flex-layout.col#section__nine-banner-two": {
+    "children": ["image#section__nine-banner-two"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "image#section__nine-banner-two":{
+    "props":{
+        "src":"arquivos/kdbaron-home__banner-7-02.png"
+    }
+  }
+}

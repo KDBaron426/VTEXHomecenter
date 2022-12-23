@@ -1,0 +1,128 @@
+{
+  "responsive-layout.mobile#about-us": {
+    "title": "About us para mobile",
+    "children": [
+      "flex-layout.row#about-us__menu",
+      "flex-layout.row#about-us__our-work"
+    ]
+  },
+  "flex-layout.row#about-us__our-work": {
+    "title": "about-us__nuestra-empresa",
+    "children": ["flex-layout.col#about-us__our-work"]
+  },
+  "flex-layout.col#about-us__our-work": {
+    "children": [
+      "rich-text#nuestra-empresa",
+      "image#nuestra-empresa",
+      "rich-text#nuestra-empresa__text",
+      "rich-text#nuestra-mision__title",
+      "rich-text#nuestra-mision__text",
+      "rich-text#nuestra-vision__title",
+      "rich-text#nuestra-vision__text",
+      "rich-text#nuestra-cultura__title",
+      "rich-text#nuestra-cultura__text",
+      "rich-text#nuestra-cultura__lista",
+      "image#nuestra-cultura",
+      "rich-text#elementos-culturales__title",
+      "rich-text#elementos-culturales__text",
+      "image#elementos-culturales",
+      "rich-text#tomandonos-colombia__title",
+      "rich-text#tomandonos-colombia__text",
+      "image#tomandonos-colombia"
+    ],
+    "props":{
+      "blockClass":"about-us-section-one"
+    }
+  },
+  "rich-text#nuestra-empresa": {
+    "props": {
+      "text": "**Nuestra empresa**",
+      "blockClass":"about-us-section-title"
+    }
+  },
+  "image#nuestra-empresa": {
+    "props": {
+      "src": "https://www.homecenter.com.co/static/landing/footer/mashomecenter/nuestra-empresa/img/nuestra-empresa2.jpg"
+    }
+  },
+  "rich-text#nuestra-empresa__text": {
+    "props": {
+      "text": "Sodimac es una empresa que opera en el retail, industria donde ha alcanzado una posición de liderazgo en el merca- do del mejoramiento del hogar. Busca satisfacer al cliente a través de múltiples puntos de contacto y canales de venta que aseguran nuestro modelo de negocio Omnicanal (Tiendas, Internet y Teléfono). Su actividad se focaliza en desarrollar y proveer soluciones a los proyectos de remodelación y construcción de sus clientes, además de satisfacer las necesidades de mejoramiento y decoración de sus hogares, ofreciendo excelencia en el servicio, integridad en su trabajo y un fuerte compromiso con la comunidad."
+    }
+  },
+  "rich-text#nuestra-mision__title": {
+    "props": {
+      "text": "**Nuestra Misión**",
+      "blockClass":"about-us-section-title-one"
+    }
+  },
+  "rich-text#nuestra-mision__text": {
+    "props": {
+      "text": "Desarrollamos con innovación y sostenibilidad, ofreciendo los mejores productos, servicios y asesoría a través del canal de venta que el cliente escoja, al mejor precio del mercado, para inspirar y construir los sueños y proyectos de nuestros clientes."
+    }
+  },
+  "rich-text#nuestra-vision__title": {
+    "props": {
+      "text": "**Nuestra Visión**",
+      "blockClass":"about-us-section-title-one"
+    }
+  },
+  "rich-text#nuestra-vision__text": {
+    "props": {
+      "text": "Ser la empresa líder de proyectos para el hogar y construcción, que mediante el mejoramiento de la calidad de vida, sea la más querida, admirada y respectada por la comunidad, los clientes, los trabajadores y los provee- dores en América."
+    }
+  },
+  "rich-text#nuestra-cultura__title": {
+    "props": {
+      "text": "**Nuestra Cultura**",
+      "blockClass":"about-us-section-title-one"
+    }
+  },
+  "rich-text#nuestra-cultura__text": {
+    "props": {
+      "text": "**Valores**"
+    }
+  },
+  "rich-text#nuestra-cultura__lista": {
+    "props": {
+      "text": "- Existe una actitud simple y profunda en SODIMAC: REIR. \n- REIR es nuestro sello, nuestro modo de relacionarnos con las personas y con el trabajo.\n \n- REIR es nuestro sello, nuestro modo de relacionarnos con las personas y con el trabajo.\n \n- REIR es la forma como vivimos nuestros valores.\n"
+    }
+  },
+  "image#nuestra-cultura": {
+    "props": {
+      "src": "https://www.homecenter.com.co/static/landing/footer/mashomecenter/nuestra-empresa/img/reir.jpg"
+    }
+  },
+  "rich-text#elementos-culturales__title": {
+    "props": {
+      "text": "**Elementos Culturales**",
+      "blockClass":"about-us-section-title-one"
+    }
+  },
+  "rich-text#elementos-culturales__text": {
+    "props": {
+      "text": "\nNuestra cultura organizacional está conformada por aspectos esenciales que practicamos a diario en nuestra compañía y orientan el comportamiento de todos los colaboradores, logrando así una cohesión organizacional y dando solidez a las actividades en todos nuestros centros de trabajo (tiendas, centro de distribución y oficina de apoyo a tiendas).\n Cultura Sodimac es una forma de vivir, hacer y sentir las cosas que nos caracterizan: por eso somos alegres, felices, creativos, líderes, constructores de sueños, auténticos, dinámicos, prácticos, diverCultura Sodimac es una forma de vivir, hacer y sentir las cosas que nos caracterizan: por eso somos alegres, felices, creativos, líderes, constructores de sueños, auténticos, dinámicos, prácticos, diversos, verracos, comprometidos y solidarios. Construimos juntos, corremos riesgos, aprendemos de nuestros errores, creemos en nuestra gente y la re- conocemos, actuamos con transparencia, nos encanta sos, verracos, comprometidos y solidarios. Construimos juntos, corremos riesgos, aprendemos de nuestros errores, creemos en nuestra gente y la re- conocemos, actuamos con transparencia, nos encanta vender, tenemos espíritu de servicio y estamos orgullosos de pertenecer a nuestra compañía."
+    }
+  },
+  "image#elementos-culturales": {
+    "props": {
+      "src": "https://www.homecenter.com.co/static/landing/footer/mashomecenter/nuestra-empresa/img/cultura1.jpg"
+    }
+  },
+  "rich-text#tomandonos-colombia__title": {
+    "props": {
+      "text": "**Tomándonos Colombia**",
+      "blockClass":"about-us-section-title-one"
+    }
+  },
+  "rich-text#tomandonos-colombia__text": {
+    "props": {
+      "text": "En Sodimac Colombia continuamos con nuestro plan de expansión a nivel nacional; actualmente, tenemos presencia en 24 ciudades y municipios, con un total de 40 tiendas, el centro de distribución, las bodegas alternas y la oficina de apoyo a tiendas. Durante el 2015 realizamos la apertura de 2 nuevas tiendas, Almacén Girardot y Almacén Yopal. \nDada la distribución geográfica de nuestras tiendas, Centro de Distribución y Oficina de Apoyo a Tiendas - OAT, Bogotá (Incluido municipios aledaños) concentra el 40.32% (3.282) de los colaboradores, Medellín (incluidos municipios aledaños) el 14.51% (1.179) y Cali con el 9.01% (732). Esta información está actualizada a Julio de 2016.\n Los centros de trabajo con mayor número de empleados de contratación directa a término indefinido son la Oficina de Apoyo a Tiendas, en Bogotá, con 567 colaboradores y el Almacén Calle 80, en Bogotá, que cuenta con 383 colaboradores."
+    }
+  },
+  "image#tomandonos-colombia": {
+    "props": {
+      "src": "https://www.homecenter.com.co/static/landing/footer/mashomecenter/nuestra-empresa/img/mapa.jpg"
+    }
+  }
+}

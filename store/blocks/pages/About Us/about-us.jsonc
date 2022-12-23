@@ -1,0 +1,9 @@
+{
+  "store.custom#about-us": {
+    "title":"Pagina About us",
+    "blocks":[
+      "responsive-layout.desktop#about-us",
+      "responsive-layout.mobile#about-us"
+    ]
+  }
+}

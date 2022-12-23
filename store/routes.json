@@ -1,0 +1,20 @@
+{
+    "store.custom#about-us":{
+        "path":"/nuestra-empresa"
+    },
+    "store.custom#donde-venimos":{
+        "path":"/nuestra-empresa/de-donde-venimos"
+    },
+    "store.custom#negocios":{
+        "path":"/nuestra-empresa/en-que-negocios-estamos"
+    },
+    "store.custom#servicios":{
+        "path":"/nuestra-empresa/servicios"
+    },
+    "store.custom#Cart-items":{
+        "path":"/cart"
+    },
+    "store.home":{
+        "path":"/"
+    }
+}
